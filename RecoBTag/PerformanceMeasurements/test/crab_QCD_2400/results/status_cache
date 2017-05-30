@@ -1,0 +1,4 @@
+18664
+116
+{'1': {'Retries': 0, 'WallDurations': [9.0, 45670.0], 'StartTimes': [1495128078.0], 'SubmitTimes': [1495127901.0], 'JobIds': ['6897621.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1033584], 'Error': [50664, 'Not retrying job due to wall clock limit (job automatically killed on the worker node)', {}], 'TotalUserCpuTimeHistory': [73734.0], 'SiteHistory': ['Unknown', 'T1_US_FNAL'], 'TotalSysCpuTimeHistory': [397.0]}, 'DagStatus': {'Timestamp': 1495203101L, 'NodesTotal': 1L, 'DagStatus': 6L}}
+{(6897621L, 0L): '1'}

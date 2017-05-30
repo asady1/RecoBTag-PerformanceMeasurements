@@ -1,0 +1,433 @@
+WARNING: Both usePFchs and usePuppi set to True. Giving priority to Puppi.
+Running on data: False
+Running using FastSim samples: False
+Running on MiniAOD: True
+Using PFchs: False
+Using Puppi: True
+Using Puppi for b tagging: False
+Jet clustering: False
+WARNING: You requested Puppi fat jets which are not stored in any of the data-tiers. Enabling fat jet clustering.
+Fat jet clustering: True
+INFO: Removing b-tag discriminators already stored in MiniAOD (with the exception of JP taggers)
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+ ################################################################### 
+ # WARNING: this module is deprecated.                             # 
+ # Please use CondCore.CondDB.CondDB_cfi.py                        # 
+ ################################################################### 
+
+Using private SQLite file Summer16_23Sep2016V3_MC 
+
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsPFlow' and then applied to
+'updatedPatJetsTransientCorrectedPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+Switching PV collection for PF2PAT: cms.InputTag("offlineSlimmedPrimaryVertices")
+***********************************
+Switching 'addTagInfos' for patJetsFatPFCHSPFlow to 'True'
+Switching 'addTagInfos' for patJetsSoftDropSubjetsPFCHSPFlow to 'True'
+Switching 'addTagInfos' for patJetsPrunedSubjetsPFCHSPFlow to 'True'
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedPFlow to 'True'
+DEBUG 2017-05-30 12:05:42,844: 	 Executing command: 'submit'
+DEBUG 2017-05-30 12:05:42,855: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-30 12:05:42,868: 	 Checking credentials
+DEBUG 2017-05-30 12:05:42,868: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:05:42,868: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:05:42,970: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 40508
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:43,072: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 
+ error: 
+ retcode : 1
+DEBUG 2017-05-30 12:05:43,072: 	 Proxy valid for 00:00:00 hours
+DEBUG 2017-05-30 12:05:43,072: 	 Creating new proxy for 24:00 hours with VO group '' and VO role 'NULL'.
+DEBUG 2017-05-30 12:05:46,879: 	 Executing : 
+ command : voms-proxy-init -voms cms:/cms -valid 24:00 -rfc
+ output : None
+ error: None
+ retcode : 0
+DEBUG 2017-05-30 12:05:46,982: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 86400
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:47,084: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 86399
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:47,186: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u48034 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:47,187: 	 Proxy created.
+INFO 2017-05-30 12:05:47,187: 	 Will use CRAB configuration file crab_BG_1000.py
+DEBUG 2017-05-30 12:05:47,187: 	 Loading CRAB configuration file.
+DEBUG 2017-05-30 12:05:47,193: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2017-05-30 12:05:47,458: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:47,459: 	 Checking credentials
+DEBUG 2017-05-30 12:05:47,459: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:05:47,459: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:05:47,561: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 86399
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:47,664: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 86399
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:47,664: 	 Proxy valid for 23:59:59 hours
+DEBUG 2017-05-30 12:05:47,766: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u48034 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:48,728: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-30 12:05:48,835: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:48,835: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-30 12:05:48,835: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-30 12:05:49,739: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 428:06:35  (17.8 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:05:49,741: 	 Myproxy is valid: 1541195
+DEBUG 2017-05-30 12:05:49,742: 	 Command use: submit
+DEBUG 2017-05-30 12:05:49,742: 	 Options use: ['crab_BG_1000.py']
+DEBUG 2017-05-30 12:05:50,672: 	 CRABClient version: 3.3.1705.patch6
+DEBUG 2017-05-30 12:05:50,672: 	 Instance is prod
+DEBUG 2017-05-30 12:05:50,673: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-30 12:05:50,673: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-30 12:05:50,673: 	 Started submission
+DEBUG 2017-05-30 12:05:50,673: 	 Working on /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi
+DEBUG 2017-05-30 12:05:51,771: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:05:51,771: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:05:51,771: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:05:51,771: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:05:51,804: 	 UNIQUE NAME: tarUUID 785060dd-eb60-4a81-8da9-d2a3dd669cc1 
+DEBUG 2017-05-30 12:05:51,805: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('General')
+config.General.transferOutputs = True
+config.General.requestName = 'BG_1000_puppi'
+config.section_('JobType')
+config.JobType.psetName = 'runBTagAnalyzer_cfg.py'
+config.JobType.pluginName = 'Analysis'
+config.JobType.pyCfgParams = ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'usePuppi=True']
+config.section_('Data')
+config.Data.inputDataset = '/BulkGravTohhTohVVhbb_narrow_M-1000_13TeV-madgraph/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM'
+config.Data.unitsPerJob = 10
+config.Data.outputDatasetTag = 'BG_1000_puppi'
+config.Data.splitting = 'FileBased'
+config.Data.inputDBS = 'global'
+config.section_('User')
+config.section_('Site')
+config.Site.storageSite = 'T3_US_FNALLPC'
+
+DEBUG 2017-05-30 12:05:51,805: 	 self.config.JobType.psetName: runBTagAnalyzer_cfg.py
+INFO 2017-05-30 12:05:51,805: 	 Importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-30 12:05:51,805: 	 Additional parameters for the CMSSW configuration are: ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'usePuppi=True']
+INFO 2017-05-30 12:05:56,932: 	 Finished importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-30 12:05:56,932: 	 Writing CMSSW configuration to /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/inputs/PSet.py
+DEBUG 2017-05-30 12:05:58,555: 	 The following EDM output files will be collected: []
+DEBUG 2017-05-30 12:05:58,556: 	 The following TFile output files will be collected: ['JetTree_mc_FatJets_Subjets.root']
+DEBUG 2017-05-30 12:05:58,556: 	 The following user output files will be collected: []
+DEBUG 2017-05-30 12:05:58,556: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:05:58,556: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:05:58,556: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/inputs/785060dd-eb60-4a81-8da9-d2a3dd669cc1default.tgz
+DEBUG 2017-05-30 12:05:58,557: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib
+DEBUG 2017-05-30 12:05:58,557: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib to tarball
+DEBUG 2017-05-30 12:06:03,524: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib
+DEBUG 2017-05-30 12:06:03,525: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib to tarball
+DEBUG 2017-05-30 12:06:03,526: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/module
+DEBUG 2017-05-30 12:06:06,626: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackHistory/interface to tarball
+DEBUG 2017-05-30 12:06:06,952: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackerHitAssociation/interface to tarball
+DEBUG 2017-05-30 12:06:07,133: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoB/interface to tarball
+DEBUG 2017-05-30 12:06:07,206: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/data to tarball
+DEBUG 2017-05-30 12:06:07,243: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/interface to tarball
+DEBUG 2017-05-30 12:06:07,516: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/DataFormats/BTauReco/interface to tarball
+DEBUG 2017-05-30 12:06:07,697: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/PhysicsTools/PatAlgos/interface to tarball
+DEBUG 2017-05-30 12:06:08,302: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/interface to tarball
+DEBUG 2017-05-30 12:06:08,540: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/data to tarball
+DEBUG 2017-05-30 12:06:08,566: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/DeepFlavour/data to tarball
+DEBUG 2017-05-30 12:06:08,754: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/LWTNN/interface to tarball
+DEBUG 2017-05-30 12:06:08,971: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/data to tarball
+DEBUG 2017-05-30 12:06:10,421: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/interface to tarball
+DEBUG 2017-05-30 12:06:10,635: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/ttbar/data to tarball
+DEBUG 2017-05-30 12:06:10,988: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/inputs/785060dd-eb60-4a81-8da9-d2a3dd669cc1default.tgz (13 MB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-30 12:06:17,928: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:06:17,928: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:06:17,928: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/inputs/debugFiles.tgz
+DEBUG 2017-05-30 12:06:17,954: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/inputs/debugFiles.tgz (12 KB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-30 12:06:19,199: 	 Result uploading input files: bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz 
+WARNING 2017-05-30 12:06:19,199: 	 Warning: The following output files will not be published, as they are not EDM files: ['JetTree_mc_FatJets_Subjets.root']
+INFO 2017-05-30 12:06:19,200: 	 Sending the request to the server
+DEBUG 2017-05-30 12:06:19,200: 	 Submitting {'maxjobruntime': 1250, 'extrajdl': [], 'ignorelocality': 0, 'savelogsflag': 0, 'useparent': 0, 'asyncdest': 'T3_US_FNALLPC', 'algoargs': 10, 'cachefilename': 'bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz', 'numcores': 1, 'addoutputfiles': [], 'generator': 'pythia', 'maxmemory': 2000, 'publishdbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', 'priority': 10, 'jobsw': 'CMSSW_8_0_23', 'edmoutfiles': [], 'userfiles': [], 'primarydataset': '', 'inputdata': '/BulkGravTohhTohVVhbb_narrow_M-1000_13TeV-madgraph/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', 'dryrun': 0, 'workflow': 'crab_BG_1000_puppi', 'cacheurl': u'https://cmsweb.cern.ch/crabcache', 'nonprodsw': 0, 'tfileoutfiles': ['JetTree_mc_FatJets_Subjets.root'], 'oneEventMode': 0, 'debugfilename': '97deb0ef6f98b4e019f043060f78b96421217c9f7d8bf0dc9588a7d8d5b3d3d3.tar.gz', 'saveoutput': 1, 'publication': 1, 'jobarch': 'slc6_amd64_gcc530', 'totalunits': 0, 'splitalgo': 'FileBased', 'ignoreglobalblacklist': 0, 'nonvaliddata': 0, 'dbsurl': 'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', 'publishgroupname': 0, 'jobtype': 'Analysis', 'publishname2': 'BG_1000_puppi'} 
+DEBUG 2017-05-30 12:06:19,200: 	 Encoded submit request: maxjobruntime=1250&ignorelocality=0&savelogsflag=0&useparent=0&asyncdest=T3_US_FNALLPC&algoargs=10&cachefilename=bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz&numcores=1&generator=pythia&maxmemory=2000&publishdbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSWriter&priority=10&jobsw=CMSSW_8_0_23&primarydataset=&inputdata=%2FBulkGravTohhTohVVhbb_narrow_M-1000_13TeV-madgraph%2FRunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1%2FMINIAODSIM&dryrun=0&workflow=crab_BG_1000_puppi&cacheurl=https%3A%2F%2Fcmsweb.cern.ch%2Fcrabcache&nonprodsw=0&oneEventMode=0&debugfilename=97deb0ef6f98b4e019f043060f78b96421217c9f7d8bf0dc9588a7d8d5b3d3d3.tar.gz&saveoutput=1&publication=1&jobarch=slc6_amd64_gcc530&totalunits=0&splitalgo=FileBased&ignoreglobalblacklist=0&nonvaliddata=0&dbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fglobal%2FDBSReader&publishgroupname=0&jobtype=Analysis&publishname2=BG_1000_puppi&tfileoutfiles=JetTree_mc_FatJets_Subjets.root
+DEBUG 2017-05-30 12:06:20,388: 	 Result: {u'result': [{u'RequestName': u'170530_170620:asady_crab_BG_1000_puppi'}]}
+INFO 2017-05-30 12:06:20,403: 	 Success: Your task has been delivered to the CRAB3 server.
+INFO 2017-05-30 12:06:20,403: 	 Task name: 170530_170620:asady_crab_BG_1000_puppi
+INFO 2017-05-30 12:06:20,403: 	 Please use 'crab status' to check how the submission process proceeds.
+DEBUG 2017-05-30 12:06:20,403: 	 About to return
+INFO 2017-05-30 12:06:20,407: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/crab.log
+DEBUG 2017-05-30 12:09:54,200: 	 Executing command: 'status'
+DEBUG 2017-05-30 12:09:54,201: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-30 12:09:54,213: 	 Checking credentials
+DEBUG 2017-05-30 12:09:54,214: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:09:54,214: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:09:54,316: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 86152
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:09:54,418: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 86152
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:09:54,418: 	 Proxy valid for 23:55:52 hours
+DEBUG 2017-05-30 12:09:54,530: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:09:54,530: 	 Checking credentials
+DEBUG 2017-05-30 12:09:54,530: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:09:54,530: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:09:54,632: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 86152
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:09:54,734: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 86152
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:09:54,734: 	 Proxy valid for 23:55:52 hours
+DEBUG 2017-05-30 12:09:55,633: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-30 12:09:55,739: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:09:55,739: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-30 12:09:55,739: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-30 12:09:56,742: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 428:02:28  (17.8 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:09:56,745: 	 Myproxy is valid: 1540948
+DEBUG 2017-05-30 12:09:56,745: 	 Command use: status
+DEBUG 2017-05-30 12:09:56,745: 	 Options use: ['crab_BG_1000_puppi/']
+DEBUG 2017-05-30 12:09:57,678: 	 CRABClient version: 3.3.1705.patch6
+DEBUG 2017-05-30 12:09:57,678: 	 Instance is prod
+DEBUG 2017-05-30 12:09:57,678: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-30 12:09:57,678: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-30 12:09:58,689: 	 Got information from server oracle database: {u'result': [u'170530_170620:asady_crab_BG_1000_puppi', u'None', u'SUBMITTED', u'2017-05-30 17:06:20.318329', u'None', u'2017-05-30 17:07:12.503695', u'None', u'CMSSW_8_0_23', u'slc6_amd64_gcc530', u'/BulkGravTohhTohVVhbb_narrow_M-1000_13TeV-madgraph/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', u'[]', u'[]', u'FileBased', u"{'splitOnRun': False, 'halt_job_on_file_boundaries': False, 'files_per_job': 10, 'runs': [], 'lumis': []}", u'0', u'bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz', u'https://cmsweb.cern.ch/crabcache', u'asady', u'/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros', u'cms', u'None', u'None', u'BG_1000_puppi-00000000000000000000000000000000', u'T3_US_FNALLPC', u'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', u'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', u'T', u'Analysis', u'{}', u'[]', u'F', u'vocms052', u'[]', u'1250', u'1', u'2000', u'10', u'None', u'http://vocms0121.cern.ch/mon/cms1311/170530_170620:asady_crab_BG_1000_puppi', u'None', u'None', u'[]', u'[]', u'[]', u'pythia', u'[]', u"['JetTree_mc_FatJets_Subjets.root']", u'[]', u'https://cmsweb.cern.ch/crabserver/prod', u'None', u'0', u'cmsgwms-collector-global.cern.ch:9620,cmssrv221.fnal.gov:9620', u'crab3@vocms0121.cern.ch', u'F', u'[]', u'T', u'/store/user/asady/', u'F', u'None', u'F', u'F', u'F', u'None', u'BulkGravTohhTohVVhbb_narrow_M-1000_13TeV-madgraph', u'filetransfers', u'SUBMIT', u'10272583', u'97deb0ef6f98b4e019f043060f78b96421217c9f7d8bf0dc9588a7d8d5b3d3d3.tar.gz', u'131.225.190.83', u'F', u'None'], u'desc': {u'columns': [u'tm_taskname', u'panda_jobset_id', u'tm_task_status', u'tm_start_time', u'tm_start_injection', u'tm_end_injection', u'tm_task_failure', u'tm_job_sw', u'tm_job_arch', u'tm_input_dataset', u'tm_site_whitelist', u'tm_site_blacklist', u'tm_split_algo', u'tm_split_args', u'tm_totalunits', u'tm_user_sandbox', u'tm_cache_url', u'tm_username', u'tm_user_dn', u'tm_user_vo', u'tm_user_role', u'tm_user_group', u'tm_publish_name', u'tm_asyncdest', u'tm_dbs_url', u'tm_publish_dbs_url', u'tm_publication', u'tm_job_type', u'tm_arguments', u'panda_resubmitted_jobs', u'tm_save_logs', u'tw_name', u'tm_user_infiles', u'tm_maxjobruntime', u'tm_numcores', u'tm_maxmemory', u'tm_priority', u'tm_output_dataset', u'tm_user_webdir', u'tm_activity', u'tm_scriptexe', u'tm_scriptargs', u'tm_extrajdl', u'tm_task_warnings', u'tm_generator', u'tm_outfiles', u'tm_tfile_outfiles', u'tm_edm_outfiles', u'tm_asourl', u'tm_events_per_lumi', u'tm_use_parent', u'tm_collector', u'tm_schedd', u'tm_dry_run', u'tm_user_files', u'tm_transfer_outputs', u'tm_output_lfn', u'tm_ignore_locality', u'tm_fail_limit', u'tm_one_event_mode', u'tm_publish_groupname', u'tm_nonvalid_input_dataset', u'tm_secondary_input_dataset', u'tm_primary_dataset', u'tm_asodb', u'tm_task_command', u'clusterid', u'tm_debug_files', u'tm_submitter_ip_addr', u'tm_ignore_global_blacklist', u'tm_last_publication']}}
+INFO 2017-05-30 12:09:58,690: 	 CRAB project directory:		/uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi
+INFO 2017-05-30 12:09:58,690: 	 Task name:			170530_170620:asady_crab_BG_1000_puppi
+INFO 2017-05-30 12:09:58,690: 	 Grid scheduler:			crab3@vocms0121.cern.ch
+INFO 2017-05-30 12:09:58,690: 	 Status on the CRAB server:	SUBMITTED
+INFO 2017-05-30 12:09:58,690: 	 Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/170530_170620%3Aasady_crab_BG_1000_puppi
+INFO 2017-05-30 12:09:58,690: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=asady&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=170530_170620%3Aasady_crab_BG_1000_puppi
+DEBUG 2017-05-30 12:09:58,690: 	 The CRAB server submitted your task to the Grid scheduler (cluster ID: 10272583)
+DEBUG 2017-05-30 12:09:58,690: 	 Webdir is located at http://vocms0121.cern.ch/mon/cms1311/170530_170620:asady_crab_BG_1000_puppi
+DEBUG 2017-05-30 12:09:59,587: 	 Proxied webdir is located at https://cmsweb.cern.ch/scheddmon/0121/cms1311/170530_170620:asady_crab_BG_1000_puppi
+DEBUG 2017-05-30 12:09:59,587: 	 Retrieving 'status_cache' file from https://cmsweb.cern.ch/scheddmon/0121/cms1311/170530_170620:asady_crab_BG_1000_puppi/status_cache
+DEBUG 2017-05-30 12:10:00,456: 	 Got information from status cache file: {'1': {'Retries': 0, 'WallDurations': [0], 'StartTimes': [], 'SubmitTimes': [1496164029.0], 'JobIds': ['10272590.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': False, 'State': 'idle', 'ResidentSetSize': [0], 'TotalUserCpuTimeHistory': [0.0], 'SiteHistory': ['Unknown'], 'TotalSysCpuTimeHistory': [0.0]}}
+INFO 2017-05-30 12:10:00,456: 	 Status on the scheduler:	SUBMITTED
+INFO 2017-05-30 12:10:00,456: 	 
+Jobs status:                    idle          100.0% (1/1)
+INFO 2017-05-30 12:10:00,457: 	 
+No publication information available yet
+INFO 2017-05-30 12:10:00,518: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/crab.log
+DEBUG 2017-05-30 12:18:01,984: 	 Executing command: 'status'
+DEBUG 2017-05-30 12:18:01,985: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-30 12:18:01,999: 	 Checking credentials
+DEBUG 2017-05-30 12:18:01,999: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:18:01,999: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:18:02,101: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 85664
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:18:02,203: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 85664
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:18:02,203: 	 Proxy valid for 23:47:44 hours
+DEBUG 2017-05-30 12:18:02,314: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:18:02,314: 	 Checking credentials
+DEBUG 2017-05-30 12:18:02,314: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:18:02,314: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:18:02,416: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 85664
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:18:02,519: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 85664
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:18:02,519: 	 Proxy valid for 23:47:44 hours
+DEBUG 2017-05-30 12:18:03,503: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-30 12:18:03,610: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:18:03,610: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-30 12:18:03,610: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-30 12:18:04,514: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 427:54:20  (17.8 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:18:04,515: 	 Myproxy is valid: 1540460
+DEBUG 2017-05-30 12:18:04,515: 	 Command use: status
+DEBUG 2017-05-30 12:18:04,515: 	 Options use: ['crab_BG_1000_puppi/']
+DEBUG 2017-05-30 12:18:05,472: 	 CRABClient version: 3.3.1705.patch6
+DEBUG 2017-05-30 12:18:05,472: 	 Instance is prod
+DEBUG 2017-05-30 12:18:05,472: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-30 12:18:05,472: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-30 12:18:06,389: 	 Got information from server oracle database: {u'result': [u'170530_170620:asady_crab_BG_1000_puppi', u'None', u'SUBMITTED', u'2017-05-30 17:06:20.318329', u'None', u'2017-05-30 17:07:12.503695', u'None', u'CMSSW_8_0_23', u'slc6_amd64_gcc530', u'/BulkGravTohhTohVVhbb_narrow_M-1000_13TeV-madgraph/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', u'[]', u'[]', u'FileBased', u"{'splitOnRun': False, 'halt_job_on_file_boundaries': False, 'files_per_job': 10, 'runs': [], 'lumis': []}", u'0', u'bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz', u'https://cmsweb.cern.ch/crabcache', u'asady', u'/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros', u'cms', u'None', u'None', u'BG_1000_puppi-00000000000000000000000000000000', u'T3_US_FNALLPC', u'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', u'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', u'T', u'Analysis', u'{}', u'[]', u'F', u'vocms052', u'[]', u'1250', u'1', u'2000', u'10', u'None', u'http://vocms0121.cern.ch/mon/cms1311/170530_170620:asady_crab_BG_1000_puppi', u'None', u'None', u'[]', u'[]', u'[]', u'pythia', u'[]', u"['JetTree_mc_FatJets_Subjets.root']", u'[]', u'https://cmsweb.cern.ch/crabserver/prod', u'None', u'0', u'cmsgwms-collector-global.cern.ch:9620,cmssrv221.fnal.gov:9620', u'crab3@vocms0121.cern.ch', u'F', u'[]', u'T', u'/store/user/asady/', u'F', u'None', u'F', u'F', u'F', u'None', u'BulkGravTohhTohVVhbb_narrow_M-1000_13TeV-madgraph', u'filetransfers', u'SUBMIT', u'10272583', u'97deb0ef6f98b4e019f043060f78b96421217c9f7d8bf0dc9588a7d8d5b3d3d3.tar.gz', u'131.225.190.83', u'F', u'None'], u'desc': {u'columns': [u'tm_taskname', u'panda_jobset_id', u'tm_task_status', u'tm_start_time', u'tm_start_injection', u'tm_end_injection', u'tm_task_failure', u'tm_job_sw', u'tm_job_arch', u'tm_input_dataset', u'tm_site_whitelist', u'tm_site_blacklist', u'tm_split_algo', u'tm_split_args', u'tm_totalunits', u'tm_user_sandbox', u'tm_cache_url', u'tm_username', u'tm_user_dn', u'tm_user_vo', u'tm_user_role', u'tm_user_group', u'tm_publish_name', u'tm_asyncdest', u'tm_dbs_url', u'tm_publish_dbs_url', u'tm_publication', u'tm_job_type', u'tm_arguments', u'panda_resubmitted_jobs', u'tm_save_logs', u'tw_name', u'tm_user_infiles', u'tm_maxjobruntime', u'tm_numcores', u'tm_maxmemory', u'tm_priority', u'tm_output_dataset', u'tm_user_webdir', u'tm_activity', u'tm_scriptexe', u'tm_scriptargs', u'tm_extrajdl', u'tm_task_warnings', u'tm_generator', u'tm_outfiles', u'tm_tfile_outfiles', u'tm_edm_outfiles', u'tm_asourl', u'tm_events_per_lumi', u'tm_use_parent', u'tm_collector', u'tm_schedd', u'tm_dry_run', u'tm_user_files', u'tm_transfer_outputs', u'tm_output_lfn', u'tm_ignore_locality', u'tm_fail_limit', u'tm_one_event_mode', u'tm_publish_groupname', u'tm_nonvalid_input_dataset', u'tm_secondary_input_dataset', u'tm_primary_dataset', u'tm_asodb', u'tm_task_command', u'clusterid', u'tm_debug_files', u'tm_submitter_ip_addr', u'tm_ignore_global_blacklist', u'tm_last_publication']}}
+INFO 2017-05-30 12:18:06,389: 	 CRAB project directory:		/uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi
+INFO 2017-05-30 12:18:06,389: 	 Task name:			170530_170620:asady_crab_BG_1000_puppi
+INFO 2017-05-30 12:18:06,390: 	 Grid scheduler:			crab3@vocms0121.cern.ch
+INFO 2017-05-30 12:18:06,390: 	 Status on the CRAB server:	SUBMITTED
+INFO 2017-05-30 12:18:06,390: 	 Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/170530_170620%3Aasady_crab_BG_1000_puppi
+INFO 2017-05-30 12:18:06,390: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=asady&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=170530_170620%3Aasady_crab_BG_1000_puppi
+DEBUG 2017-05-30 12:18:06,390: 	 The CRAB server submitted your task to the Grid scheduler (cluster ID: 10272583)
+DEBUG 2017-05-30 12:18:06,390: 	 Webdir is located at http://vocms0121.cern.ch/mon/cms1311/170530_170620:asady_crab_BG_1000_puppi
+DEBUG 2017-05-30 12:18:07,274: 	 Proxied webdir is located at https://cmsweb.cern.ch/scheddmon/0121/cms1311/170530_170620:asady_crab_BG_1000_puppi
+DEBUG 2017-05-30 12:18:07,274: 	 Retrieving 'status_cache' file from https://cmsweb.cern.ch/scheddmon/0121/cms1311/170530_170620:asady_crab_BG_1000_puppi/status_cache
+DEBUG 2017-05-30 12:18:08,372: 	 Got information from status cache file: {'1': {'Retries': 0, 'WallDurations': [9.0, 310.0], 'StartTimes': [1496164122.0], 'SubmitTimes': [1496164029.0], 'JobIds': ['10272590.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [890084], 'TotalUserCpuTimeHistory': [249.0], 'SiteHistory': ['Unknown', 'T2_US_MIT'], 'TotalSysCpuTimeHistory': [8.0]}}
+INFO 2017-05-30 12:18:08,372: 	 Status on the scheduler:	SUBMITTED
+INFO 2017-05-30 12:18:08,373: 	 
+Jobs status:                    running       100.0% (1/1)
+INFO 2017-05-30 12:18:08,373: 	 
+No publication information available yet
+INFO 2017-05-30 12:18:08,426: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_1000_puppi/crab.log

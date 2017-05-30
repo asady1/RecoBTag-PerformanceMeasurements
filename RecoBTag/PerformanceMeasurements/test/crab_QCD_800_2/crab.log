@@ -1,0 +1,330 @@
+Running on data: False
+Running using FastSim samples: False
+Running on MiniAOD: True
+Using PFchs: True
+Using Puppi: False
+Using Puppi for b tagging: False
+Jet clustering: False
+Fat jet clustering: False
+INFO: Removing b-tag discriminators already stored in MiniAOD (with the exception of JP taggers)
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+ ################################################################### 
+ # WARNING: this module is deprecated.                             # 
+ # Please use CondCore.CondDB.CondDB_cfi.py                        # 
+ ################################################################### 
+
+Using private SQLite file Summer16_23Sep2016V3_MC 
+
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsPFlow' and then applied to
+'updatedPatJetsTransientCorrectedPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsFatPFCHSPFlow' and then applied to
+'updatedPatJetsTransientCorrectedFatPFCHSPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsSoftDropSubjetsPFCHSPFlow' and then applied to
+'updatedPatJetsTransientCorrectedSoftDropSubjetsPFCHSPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+Switching PV collection for PF2PAT: cms.InputTag("offlineSlimmedPrimaryVertices")
+***********************************
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedPFlow to 'True'
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedFatPFCHSPFlow to 'True'
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedSoftDropSubjetsPFCHSPFlow to 'True'
+DEBUG 2017-05-19 09:45:26,245: 	 Executing command: 'submit'
+DEBUG 2017-05-19 09:45:26,250: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-19 09:45:26,312: 	 Checking credentials
+DEBUG 2017-05-19 09:45:26,313: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:45:26,313: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:45:26,533: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84916
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:26,754: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84916
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:26,754: 	 Proxy valid for 23:35:16 hours
+INFO 2017-05-19 09:45:26,754: 	 Will use CRAB configuration file crab_QCD_800.py
+DEBUG 2017-05-19 09:45:26,754: 	 Loading CRAB configuration file.
+DEBUG 2017-05-19 09:45:26,772: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2017-05-19 09:45:27,018: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:27,018: 	 Checking credentials
+DEBUG 2017-05-19 09:45:27,018: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:45:27,018: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:45:27,332: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84915
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:27,580: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84915
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:27,580: 	 Proxy valid for 23:35:15 hours
+DEBUG 2017-05-19 09:45:27,902: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u48034 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:29,908: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-19 09:45:30,147: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:30,147: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-19 09:45:30,147: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-19 09:45:31,193: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 694:26:53  (28.9 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:45:31,194: 	 Myproxy is valid: 2500013
+DEBUG 2017-05-19 09:45:31,195: 	 Command use: submit
+DEBUG 2017-05-19 09:45:31,195: 	 Options use: ['crab_QCD_800.py']
+DEBUG 2017-05-19 09:45:33,403: 	 CRABClient version: 3.3.1705.patch4
+DEBUG 2017-05-19 09:45:33,403: 	 Instance is prod
+DEBUG 2017-05-19 09:45:33,403: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-19 09:45:33,404: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-19 09:45:33,404: 	 Started submission
+DEBUG 2017-05-19 09:45:33,404: 	 Working on /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2
+DEBUG 2017-05-19 09:45:35,786: 	 Loading required information from the environment
+DEBUG 2017-05-19 09:45:35,787: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-19 09:45:35,787: 	 Loading required information from the environment
+DEBUG 2017-05-19 09:45:35,787: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-19 09:45:35,946: 	 UNIQUE NAME: tarUUID 0b26de19-d6ee-4c7a-80a1-330bc705dde0 
+DEBUG 2017-05-19 09:45:35,946: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('General')
+config.General.transferOutputs = True
+config.General.requestName = 'QCD_800_2'
+config.section_('JobType')
+config.JobType.psetName = 'runBTagAnalyzer_cfg.py'
+config.JobType.pluginName = 'Analysis'
+config.JobType.pyCfgParams = ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'remakeDoubleB=True']
+config.section_('Data')
+config.Data.inputDataset = '/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM'
+config.Data.outputDatasetTag = 'QCD_800_2'
+config.Data.totalUnits = 100000
+config.Data.unitsPerJob = 2
+config.Data.inputDBS = 'global'
+config.Data.splitting = 'FileBased'
+config.section_('User')
+config.section_('Site')
+config.Site.storageSite = 'T3_US_FNALLPC'
+
+DEBUG 2017-05-19 09:45:35,946: 	 self.config.JobType.psetName: runBTagAnalyzer_cfg.py
+INFO 2017-05-19 09:45:35,947: 	 Importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-19 09:45:35,947: 	 Additional parameters for the CMSSW configuration are: ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'remakeDoubleB=True']
+INFO 2017-05-19 09:45:48,337: 	 Finished importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-19 09:45:48,338: 	 Writing CMSSW configuration to /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2/inputs/PSet.py
+DEBUG 2017-05-19 09:45:55,870: 	 The following EDM output files will be collected: []
+DEBUG 2017-05-19 09:45:55,870: 	 The following TFile output files will be collected: ['JetTree_mc_FatJets_Subjets.root']
+DEBUG 2017-05-19 09:45:55,870: 	 The following user output files will be collected: []
+DEBUG 2017-05-19 09:45:55,870: 	 Loading required information from the environment
+DEBUG 2017-05-19 09:45:55,870: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-19 09:45:55,870: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2/inputs/0b26de19-d6ee-4c7a-80a1-330bc705dde0default.tgz
+DEBUG 2017-05-19 09:45:55,871: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib
+DEBUG 2017-05-19 09:45:55,871: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib to tarball
+DEBUG 2017-05-19 09:46:12,643: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib
+DEBUG 2017-05-19 09:46:12,643: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib to tarball
+DEBUG 2017-05-19 09:46:12,650: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/module
+DEBUG 2017-05-19 09:46:14,163: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackHistory/interface to tarball
+DEBUG 2017-05-19 09:46:14,243: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackerHitAssociation/interface to tarball
+DEBUG 2017-05-19 09:46:14,267: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoB/interface to tarball
+DEBUG 2017-05-19 09:46:14,297: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/data to tarball
+DEBUG 2017-05-19 09:46:14,321: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/interface to tarball
+DEBUG 2017-05-19 09:46:14,382: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/DataFormats/BTauReco/interface to tarball
+DEBUG 2017-05-19 09:46:14,547: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/PhysicsTools/PatAlgos/interface to tarball
+DEBUG 2017-05-19 09:46:14,740: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/interface to tarball
+DEBUG 2017-05-19 09:46:14,817: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/data to tarball
+DEBUG 2017-05-19 09:46:14,883: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/DeepFlavour/data to tarball
+DEBUG 2017-05-19 09:46:15,796: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/LWTNN/interface to tarball
+DEBUG 2017-05-19 09:46:15,834: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/data to tarball
+DEBUG 2017-05-19 09:46:22,759: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/interface to tarball
+DEBUG 2017-05-19 09:46:23,100: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/ttbar/data to tarball
+DEBUG 2017-05-19 09:46:24,094: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2/inputs/0b26de19-d6ee-4c7a-80a1-330bc705dde0default.tgz (13 MB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-19 09:46:38,173: 	 Loading required information from the environment
+DEBUG 2017-05-19 09:46:38,174: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-19 09:46:38,174: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2/inputs/debugFiles.tgz
+DEBUG 2017-05-19 09:46:38,223: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2/inputs/debugFiles.tgz (12 KB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-19 09:46:40,943: 	 Result uploading input files: 810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz 
+WARNING 2017-05-19 09:46:40,944: 	 Warning: The following output files will not be published, as they are not EDM files: ['JetTree_mc_FatJets_Subjets.root']
+INFO 2017-05-19 09:46:40,944: 	 Sending the request to the server
+DEBUG 2017-05-19 09:46:40,944: 	 Submitting {'maxjobruntime': 1250, 'extrajdl': [], 'ignorelocality': 0, 'savelogsflag': 0, 'useparent': 0, 'asyncdest': 'T3_US_FNALLPC', 'algoargs': 2, 'cachefilename': '810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz', 'numcores': 1, 'addoutputfiles': [], 'generator': 'pythia', 'maxmemory': 2000, 'publishdbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', 'priority': 10, 'jobsw': 'CMSSW_8_0_23', 'edmoutfiles': [], 'userfiles': [], 'primarydataset': '', 'inputdata': '/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', 'dryrun': 0, 'workflow': 'crab_QCD_800_2', 'cacheurl': u'https://cmsweb.cern.ch/crabcache', 'nonprodsw': 0, 'tfileoutfiles': ['JetTree_mc_FatJets_Subjets.root'], 'oneEventMode': 0, 'debugfilename': '11101528df37ff75e2acba2d0664d95ccc29d22ca364981904c692fc5fcadb5b.tar.gz', 'saveoutput': 1, 'publication': 1, 'jobarch': 'slc6_amd64_gcc530', 'totalunits': 100000, 'splitalgo': 'FileBased', 'ignoreglobalblacklist': 0, 'nonvaliddata': 0, 'dbsurl': 'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', 'publishgroupname': 0, 'jobtype': 'Analysis', 'publishname2': 'QCD_800_2'} 
+DEBUG 2017-05-19 09:46:40,944: 	 Encoded submit request: maxjobruntime=1250&ignorelocality=0&savelogsflag=0&useparent=0&asyncdest=T3_US_FNALLPC&algoargs=2&cachefilename=810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz&numcores=1&generator=pythia&maxmemory=2000&publishdbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSWriter&priority=10&jobsw=CMSSW_8_0_23&primarydataset=&inputdata=%2FQCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8%2FRunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1%2FMINIAODSIM&dryrun=0&workflow=crab_QCD_800_2&cacheurl=https%3A%2F%2Fcmsweb.cern.ch%2Fcrabcache&nonprodsw=0&oneEventMode=0&debugfilename=11101528df37ff75e2acba2d0664d95ccc29d22ca364981904c692fc5fcadb5b.tar.gz&saveoutput=1&publication=1&jobarch=slc6_amd64_gcc530&totalunits=100000&splitalgo=FileBased&ignoreglobalblacklist=0&nonvaliddata=0&dbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fglobal%2FDBSReader&publishgroupname=0&jobtype=Analysis&publishname2=QCD_800_2&tfileoutfiles=JetTree_mc_FatJets_Subjets.root
+DEBUG 2017-05-19 09:46:43,492: 	 Result: {u'result': [{u'RequestName': u'170519_144643:asady_crab_QCD_800_2'}]}
+INFO 2017-05-19 09:46:43,498: 	 Success: Your task has been delivered to the CRAB3 server.
+INFO 2017-05-19 09:46:43,498: 	 Task name: 170519_144643:asady_crab_QCD_800_2
+INFO 2017-05-19 09:46:43,498: 	 Please use 'crab status' to check how the submission process proceeds.
+DEBUG 2017-05-19 09:46:43,499: 	 About to return
+INFO 2017-05-19 09:46:43,517: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2/crab.log
+DEBUG 2017-05-22 10:37:55,403: 	 Executing command: 'status'
+DEBUG 2017-05-22 10:37:55,407: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-22 10:37:56,564: 	 Checking credentials
+DEBUG 2017-05-22 10:37:56,577: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-22 10:37:56,577: 	 Getting proxy life time left
+DEBUG 2017-05-22 10:37:57,228: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 83123
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-22 10:37:57,885: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 83122
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-22 10:37:57,885: 	 Proxy valid for 23:05:23 hours
+DEBUG 2017-05-22 10:37:58,382: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-22 10:37:58,383: 	 Checking credentials
+DEBUG 2017-05-22 10:37:58,383: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-22 10:37:58,383: 	 Getting proxy life time left
+DEBUG 2017-05-22 10:37:59,022: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 83122
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-22 10:37:59,667: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 83120
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-22 10:37:59,667: 	 Proxy valid for 23:05:22 hours
+DEBUG 2017-05-22 10:38:04,798: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-22 10:38:05,283: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-22 10:38:05,283: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-22 10:38:05,284: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-22 10:38:06,532: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 621:34:18  (25.9 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-22 10:38:06,534: 	 Myproxy is valid: 2237658
+DEBUG 2017-05-22 10:38:06,534: 	 Command use: status
+DEBUG 2017-05-22 10:38:06,534: 	 Options use: ['crab_QCD_800_2/']
+DEBUG 2017-05-22 10:38:11,690: 	 CRABClient version: 3.3.1705.patch5
+DEBUG 2017-05-22 10:38:11,690: 	 Instance is prod
+DEBUG 2017-05-22 10:38:11,690: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-22 10:38:11,690: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-22 10:38:16,759: 	 Got information from server oracle database: {u'result': [u'170519_144643:asady_crab_QCD_800_2', u'None', u'SUBMITTED', u'2017-05-19 14:46:43.425248', u'None', u'2017-05-19 14:47:55.588980', u'None', u'CMSSW_8_0_23', u'slc6_amd64_gcc530', u'/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', u'[]', u'[]', u'FileBased', u"{'splitOnRun': False, 'halt_job_on_file_boundaries': False, 'files_per_job': 2, 'runs': [], 'lumis': []}", u'100000', u'810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz', u'https://cmsweb.cern.ch/crabcache', u'asady', u'/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros', u'cms', u'None', u'None', u'QCD_800_2-00000000000000000000000000000000', u'T3_US_FNALLPC', u'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', u'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', u'T', u'Analysis', u'{}', u'[]', u'F', u'vocms052', u'[]', u'1250', u'1', u'2000', u'10', u'None', u'http://vocms0155.cern.ch/mon/cms1311/170519_144643:asady_crab_QCD_800_2', u'None', u'None', u'[]', u'[]', u'[]', u'pythia', u'[]', u"['JetTree_mc_FatJets_Subjets.root']", u'[]', u'https://cmsweb.cern.ch/crabserver/prod', u'None', u'0', u'cmsgwms-collector-global.cern.ch:9620,cmssrv221.fnal.gov:9620', u'crab3@vocms0155.cern.ch', u'F', u'[]', u'T', u'/store/user/asady/', u'F', u'None', u'F', u'F', u'F', u'None', u'QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8', u'filetransfers', u'SUBMIT', u'8824496', u'11101528df37ff75e2acba2d0664d95ccc29d22ca364981904c692fc5fcadb5b.tar.gz', u'131.225.190.83', u'F', u'None'], u'desc': {u'columns': [u'tm_taskname', u'panda_jobset_id', u'tm_task_status', u'tm_start_time', u'tm_start_injection', u'tm_end_injection', u'tm_task_failure', u'tm_job_sw', u'tm_job_arch', u'tm_input_dataset', u'tm_site_whitelist', u'tm_site_blacklist', u'tm_split_algo', u'tm_split_args', u'tm_totalunits', u'tm_user_sandbox', u'tm_cache_url', u'tm_username', u'tm_user_dn', u'tm_user_vo', u'tm_user_role', u'tm_user_group', u'tm_publish_name', u'tm_asyncdest', u'tm_dbs_url', u'tm_publish_dbs_url', u'tm_publication', u'tm_job_type', u'tm_arguments', u'panda_resubmitted_jobs', u'tm_save_logs', u'tw_name', u'tm_user_infiles', u'tm_maxjobruntime', u'tm_numcores', u'tm_maxmemory', u'tm_priority', u'tm_output_dataset', u'tm_user_webdir', u'tm_activity', u'tm_scriptexe', u'tm_scriptargs', u'tm_extrajdl', u'tm_task_warnings', u'tm_generator', u'tm_outfiles', u'tm_tfile_outfiles', u'tm_edm_outfiles', u'tm_asourl', u'tm_events_per_lumi', u'tm_use_parent', u'tm_collector', u'tm_schedd', u'tm_dry_run', u'tm_user_files', u'tm_transfer_outputs', u'tm_output_lfn', u'tm_ignore_locality', u'tm_fail_limit', u'tm_one_event_mode', u'tm_publish_groupname', u'tm_nonvalid_input_dataset', u'tm_secondary_input_dataset', u'tm_primary_dataset', u'tm_asodb', u'tm_task_command', u'clusterid', u'tm_debug_files', u'tm_submitter_ip_addr', u'tm_ignore_global_blacklist', u'tm_last_publication']}}
+INFO 2017-05-22 10:38:16,760: 	 CRAB project directory:		/uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2
+INFO 2017-05-22 10:38:16,760: 	 Task name:			170519_144643:asady_crab_QCD_800_2
+INFO 2017-05-22 10:38:16,760: 	 Grid scheduler:			crab3@vocms0155.cern.ch
+INFO 2017-05-22 10:38:16,760: 	 Status on the CRAB server:	SUBMITTED
+INFO 2017-05-22 10:38:16,760: 	 Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/170519_144643%3Aasady_crab_QCD_800_2
+INFO 2017-05-22 10:38:16,760: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=asady&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=170519_144643%3Aasady_crab_QCD_800_2
+DEBUG 2017-05-22 10:38:16,760: 	 The CRAB server submitted your task to the Grid scheduler (cluster ID: 8824496)
+DEBUG 2017-05-22 10:38:16,760: 	 Webdir is located at http://vocms0155.cern.ch/mon/cms1311/170519_144643:asady_crab_QCD_800_2
+DEBUG 2017-05-22 10:38:21,970: 	 Proxied webdir is located at https://cmsweb.cern.ch/scheddmon/0155/cms1311/170519_144643:asady_crab_QCD_800_2
+DEBUG 2017-05-22 10:38:21,970: 	 Retrieving 'status_cache' file from https://cmsweb.cern.ch/scheddmon/0155/cms1311/170519_144643:asady_crab_QCD_800_2/status_cache
+DEBUG 2017-05-22 10:38:27,182: 	 Got information from status cache file: {'24': {'Retries': 2, 'WallDurations': [10.0, 64576.0, 9.0, 52353.0, 46851.0], 'StartTimes': [1495207561.0, 1495274189.0, 1495328604.0], 'SubmitTimes': [1495205275.0, 1495274006.0, 1495328478.0], 'JobIds': ['8824525.0', '8850568.0', '8859769.0'], 'TotalUserCpuTimeHistory': [63224, 51110, 45773], 'EndTimes': [1495272137.0, 1495326542.0, 1495375455.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1014740, 965260, 1047812], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- cd478308879759f5b5443093553d92285913f45f5c3eb39bb4fccc95:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [338, 361, 299]}, '25': {'Retries': 2, 'WallDurations': [9.0, 23478.0, 68494.0, 35494.0], 'StartTimes': [1495207418.0, 1495232877.0, 1495303392.0], 'SubmitTimes': [1495205274.0, 1495232770.0, 1495303299.0], 'JobIds': ['8824522.0', '8839411.0', '8855853.0'], 'EndTimes': [1495230896.0, 1495301371.0, 1495338886.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1024888, 940168, 1081852], 'TotalUserCpuTimeHistory': [22383, 66559, 34535], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'T2_CH_CERN', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [124, 508, 149]}, '26': {'Retries': 2, 'WallDurations': [9.0, 43653.0, 9.0, 39445.0, 40594.0, 0, 44802.0], 'StartTimes': [1495207794.0, 1495253453.0, 1495295004.0, 1495335678.0], 'SubmitTimes': [1495205275.0, 1495253319.0, 1495294828.0, -1], 'JobIds': ['8824528.0', '8843767.0', '8855080.0', '8855080.0'], 'EndTimes': [1495251447.0, 1495292898.0, 1495335598.0, 1495380480.0], 'Restarts': 1, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1118592, 1041388, 1040272, 2029856], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 529a2094a25529367a3efd8ff97fd1158e52e0620aa0753cc6bedb90:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [43110, 38120, 36508.0, 43619], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Legnaro', 'T2_CH_CERN', 'Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [155, 165, 175.0, 272]}, '27': {'Retries': 2, 'WallDurations': [9.0, 28913.0, 9.0, 37799.0, 12870.0, 39781.0], 'StartTimes': [1495207794.0, 1495238675.0, 1495278490.0, 1495291475.0], 'SubmitTimes': [1495205275.0, 1495238584.0, 1495278404.0, -1], 'JobIds': ['8824530.0', '8841916.0', '8850983.0', '8850983.0'], 'EndTimes': [1495236707.0, 1495276474.0, 1495291360.0, 1495331256.0], 'Restarts': 1, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1166544, 1075276, 992428, 1037840], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- c2fa14b731ebe80ba3efb949e660db984102f5d94165d509741fc496:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [28543, 36847, 10009.0, 38790], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN', 'T2_CH_CERN', 'T2_IT_Bari'], 'TotalSysCpuTimeHistory': [98, 178, 76.0, 138]}, '20': {'Retries': 2, 'WallDurations': [9.0, 36815.0, 8.0, 63702.0, 29953.0], 'StartTimes': [1495207290.0, 1495246435.0, 1495312146.0], 'SubmitTimes': [1495205274.0, 1495245976.0, 1495312071.0], 'JobIds': ['8824520.0', '8842799.0', '8857810.0'], 'EndTimes': [1495244105.0, 1495310137.0, 1495342099.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1134980, 1002676, 1141904], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 63d73e84160e68869717a359741198b1ac1631b1bd83615969124036:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [36403, 61223, 29625], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Bari', 'T2_FR_IPHC'], 'TotalSysCpuTimeHistory': [190, 234, 146]}, '21': {'Retries': 2, 'WallDurations': [9.0, 34768.0, 9.0, 36162.0, 49004.0], 'StartTimes': [1495207671.0, 1495244495.0, 1495282771.0], 'SubmitTimes': [1495205275.0, 1495244312.0, 1495282588.0], 'JobIds': ['8824529.0', '8842605.0', '8851351.0'], 'EndTimes': [1495242439.0, 1495280657.0, 1495331775.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1131372, 988420, 1009072], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 84425daec7ed0c5132b1db620f3a13ea1edb034feeb27d5e247a7424:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [34372, 34167, 47715], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN', 'T2_IT_Bari'], 'TotalSysCpuTimeHistory': [129, 179, 176]}, '22': {'Retries': 2, 'WallDurations': [10.0, 23924.0, 9.0, 38759.0, 9.0, 43533.0], 'StartTimes': [1495207290.0, 1495233399.0, 1495274190.0], 'SubmitTimes': [1495205274.0, 1495233087.0, 1495274086.0], 'JobIds': ['8824521.0', '8839482.0', '8850575.0'], 'TotalUserCpuTimeHistory': [23560, 38335, 41935], 'EndTimes': [1495231214.0, 1495272158.0, 1495317723.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1173184, 1030012, 1800328], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 043dcc582799aae0e0896579c212aef52e79cf2362edda235e48f40f:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [114, 138, 453]}, '23': {'Retries': 2, 'WallDurations': [9.0, 37116.0, 9.0, 44422.0, 9.0, 55572.0], 'StartTimes': [1495207417.0, 1495247808.0, 1495294263.0], 'SubmitTimes': [1495205275.0, 1495246403.0, 1495294164.0], 'JobIds': ['8824524.0', '8842863.0', '8854964.0'], 'EndTimes': [1495244533.0, 1495292230.0, 1495349835.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1154712, 1159868, 1031368], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 24fe531f8c6615c3eb177576dc9bc9ce4d4d8c387e2ad0552a3893e4:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [36715, 44019, 52853], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [186, 155, 259]}, '28': {'Retries': 2, 'WallDurations': [9.0, 35820.0, 9.0, 50687.0, 9.0, 32972.0], 'StartTimes': [1495207418.0, 1495245401.0, 1495298119.0], 'SubmitTimes': [1495205275.0, 1495245112.0, 1495298021.0], 'JobIds': ['8824523.0', '8842719.0', '8855347.0'], 'TotalUserCpuTimeHistory': [35359, 48290, 32611], 'EndTimes': [1495243238.0, 1495296088.0, 1495331091.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1156208, 1020732, 1066324], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 4a59a245e1200d830f40464d79a9e74d8afc8e0dbb1f65f1406fd2a4:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Bari', 'Unknown', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [137, 179, 125]}, '29': {'Retries': 2, 'WallDurations': [10.0, 55424.0, 9.0, 71594.0, 42141.0], 'StartTimes': [1495207672.0, 1495265183.0, 1495338811.0], 'SubmitTimes': [1495205275.0, 1495264967.0, 1495338709.0], 'JobIds': ['8824527.0', '8849008.0', '8863091.0'], 'EndTimes': [1495263096.0, 1495336777.0, 1495380952.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1043204, 1053224, 1023472], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- c444849e1cf2a2fa233600d0955e8384097933586d70cd3f29e9cd11:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [54706, 68501, 41131], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Bari', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [227, 245, 266]}, '1': {'Retries': 2, 'WallDurations': [10.0, 23437.0, 8.0, 37920.0, 18752.0], 'StartTimes': [1495207793.0, 1495233680.0, 1495273595.0], 'SubmitTimes': [1495205271.0, 1495233102.0, 1495273534.0], 'JobIds': ['8824501.0', '8839489.0', '8850534.0'], 'EndTimes': [1495231230.0, 1495271600.0, 1495292347.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1150100, 1015140, 1183608], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- cc4fc264b5ab595772dd31e126efa2bd6209ae10ac70997b2eefb5d5:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [22348, 37212, 18488], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [121, 260, 87]}, '3': {'Retries': 3, 'WallDurations': [9.0, 51171.0, 51890.0, 9.0, 46646.0, 38058.0], 'StartTimes': [1495208798.0, 1495262772.0, 1495311465.0], 'SubmitTimes': [1495205272.0, -1, 1495262561.0, 1495311348.0], 'JobIds': ['8824503.0', '8824503.0', '8848884.0', '8857751.0'], 'TotalUserCpuTimeHistory': [50039.0, 50039, 40112, 36566], 'EndTimes': [1495259969.0, 1495260688.0, 1495309418.0, 1495349523.0], 'Restarts': 1, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1004928, 0, 952920, 1080652], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 1eade0258176010859013c0e0bac444c0d6f02ce6a11c9f57c77859d:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'Unknown', 'T2_CH_CERN', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [269.0, 269, 406, 247]}, '2': {'Retries': 2, 'WallDurations': [9.0, 19110.0, 9.0, 18905.0, 9.0, 32473.0], 'StartTimes': [1495208327.0, 1495229391.0, 1495251189.0], 'SubmitTimes': [1495205272.0, 1495229308.0, 1495250232.0], 'JobIds': ['8824502.0', '8837655.0', '8843560.0'], 'EndTimes': [1495227437.0, 1495248296.0, 1495283662.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1135052, 1139128, 1009524], 'TotalUserCpuTimeHistory': [18785, 18513, 31062], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [88, 86, 132]}, '5': {'Retries': 2, 'WallDurations': [10.0, 30336.0, 8.0, 32094.0, 9.0, 36080.0], 'StartTimes': [1495208797.0, 1495241138.0, 1495275525.0], 'SubmitTimes': [1495205273.0, 1495241002.0, 1495275159.0], 'JobIds': ['8824508.0', '8842215.0', '8850674.0'], 'TotalUserCpuTimeHistory': [29244, 31688, 35509], 'EndTimes': [1495239133.0, 1495273232.0, 1495311605.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1036072, 1152716, 1041144], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 4169b257a1aa1ef1ce19d5b07576109c9577955a9f98964142a68405:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Pisa'], 'TotalSysCpuTimeHistory': [156, 168, 240]}, '4': {'Retries': 2, 'WallDurations': [8.0, 28969.0, 49944.0, 20235.0], 'StartTimes': [1495208799.0, 1495239749.0, 1495291729.0], 'SubmitTimes': [1495205273.0, 1495239637.0, 1495291626.0], 'JobIds': ['8824507.0', '8842017.0', '8852022.0'], 'EndTimes': [1495237768.0, 1495289693.0, 1495311964.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1143048, 1042144, 1154096], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 1f811a7aa21381c5b77d4eaceb6541a1a8cb5c5975a5cff1981ee9a6:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [28582, 48136, 19727], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'T2_CH_CERN', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [137, 239, 103]}, '7': {'Retries': 2, 'WallDurations': [9.0, 42326.0, 10.0, 1207.0, 1268.0], 'StartTimes': [1495205478.0, 1495251194.0, 1495252652.0], 'SubmitTimes': [1495205273.0, 1495249672.0, 1495252532.0], 'JobIds': ['8824509.0', '8843525.0', '8843704.0'], 'EndTimes': [1495247804.0, 1495252401.0, 1495253920.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1021520, 24052, 26124], 'Error': [8028, 'CmsRunFailure\nCMSSW error message follows.\nFatal Exception\nAn exception of category \'FallbackFileOpenError\' occurred while\n   [0] Constructing the EventProcessor\n   [1] Constructing input source of type PoolSource\n   [2] Calling RootFileSequenceBase::initTheFile()\n   [3] Calling StorageFactory::open()\n   [4] Calling XrdFile::open()\nException Message:\nFailed to open the file \'root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\'\n   Additional Info:\n      [a] dc_open(name=\'dcap://t2-srm-02.lnl.infn.it/pnfs/lnl.infn.it/data/cms/store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\', flags=0x0, permissions=0666) => error \'"No such file or directory"\' (dc_errno=30)\n      [b] Input file dcap://t2-srm-02.lnl.infn.it/pnfs/lnl.infn.it/data/cms/store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root could not be opened.\nFallback Input file root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root also could not be opened.\nOriginal exception info is above; fallback exception info is below.\n      [c] XrdCl::File::Open(name=\'root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\', flags=0x10, permissions=0660) => error \'[ERROR] Operation expired\' (errno=0, code=206)\n      [d] Last URL tried: root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\n      [e] Problematic data server: xrootd-cms.infn.it:1194\n', {'type': 'Fatal Exception', 'details': 'An exception of category \'FallbackFileOpenError\' occurred while\n   [0] Constructing the EventProcessor\n   [1] Constructing input source of type PoolSource\n   [2] Calling RootFileSequenceBase::initTheFile()\n   [3] Calling StorageFactory::open()\n   [4] Calling XrdFile::open()\nException Message:\nFailed to open the file \'root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\'\n   Additional Info:\n      [a] dc_open(name=\'dcap://t2-srm-02.lnl.infn.it/pnfs/lnl.infn.it/data/cms/store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\', flags=0x0, permissions=0666) => error \'"No such file or directory"\' (dc_errno=30)\n      [b] Input file dcap://t2-srm-02.lnl.infn.it/pnfs/lnl.infn.it/data/cms/store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root could not be opened.\nFallback Input file root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root also could not be opened.\nOriginal exception info is above; fallback exception info is below.\n      [c] XrdCl::File::Open(name=\'root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\', flags=0x10, permissions=0660) => error \'[ERROR] Operation expired\' (errno=0, code=206)\n      [d] Last URL tried: root://xrootd-cms.infn.it:1194//store/mc/RunIISummer16MiniAODv2/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/5446E4FE-D9B0-E611-AD7E-001E674DA347.root\n      [e] Problematic data server: xrootd-cms.infn.it:1194', 'exitCode': '8028'}], 'TotalUserCpuTimeHistory': [41813, 4, 4], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Legnaro', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [151, 0, 0]}, '6': {'Retries': 2, 'WallDurations': [34235.0, 24322.0, 29121.0, 0, 42259.0], 'StartTimes': [1495205324.0, 1495241601.0, 1495268009.0, 1495297304.0], 'SubmitTimes': [1495205272.0, 1495241429.0, 1495267854.0, -1], 'JobIds': ['8824505.0', '8842270.0', '8849180.0', '8849180.0'], 'EndTimes': [1495239559.0, 1495265923.0, 1495297130.0, 1495339563.0], 'Restarts': 1, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1061892, 1173760, 905428, 1047708], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 1cced48d83a3a802243ab5e944e7a698364822196f0c3539be98fed8:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [33745, 24033, 20394.0, 41553], 'SiteHistory': ['T2_IT_Rome', 'T2_IT_Rome', 'T2_CH_CERN', 'Unknown', 'T2_IT_Pisa'], 'TotalSysCpuTimeHistory': [169, 118, 650.0, 184]}, '9': {'Retries': 2, 'WallDurations': [9.0, 38619.0, 9.0, 70515.0, 45507.0], 'StartTimes': [1495205689.0, 1495247753.0, 1495320302.0], 'SubmitTimes': [1495205273.0, 1495246181.0, 1495320198.0], 'JobIds': ['8824510.0', '8842822.0', '8858846.0'], 'TotalUserCpuTimeHistory': [38126, 66293, 44403], 'EndTimes': [1495244308.0, 1495318268.0, 1495365809.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1157748, 1055012, 1121648], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 1af46ad4a8f222fc62d649d9b2d6e1e557d5a24d5a0de1d7acab1003:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Bari', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [206, 248, 295]}, '8': {'Retries': 2, 'WallDurations': [28070.0, 9.0, 23951.0, 12736.0], 'StartTimes': [1495205324.0, 1495235393.0, 1495260855.0], 'SubmitTimes': [1495205271.0, 1495235267.0, 1495260665.0], 'JobIds': ['8824500.0', '8841229.0', '8846606.0'], 'EndTimes': [1495233394.0, 1495259344.0, 1495273591.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1056804, 978080, 1160908], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 54a3aa0c7e752efb1fb6301d87319c19bef265477322a7297624529b:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [27674, 23518, 12551], 'SiteHistory': ['T2_IT_Rome', 'Unknown', 'T2_CH_CERN', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [100, 116, 59]}, '11': {'Retries': 2, 'WallDurations': [9.0, 24354.0, 34342.0, 39671.0], 'StartTimes': [1495205588.0, 1495231913.0, 1495268304.0], 'SubmitTimes': [1495205272.0, 1495231816.0, 1495268187.0], 'JobIds': ['8824506.0', '8839178.0', '8849210.0'], 'EndTimes': [1495229942.0, 1495266255.0, 1495307975.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1117132, 1056680, 1005076], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 601ed3d1c948a66a6f34d286bf7e1bac8cabeb5dfc2a067912e82284:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [23815, 33972, 38879], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'T2_CH_CERN', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [119, 155, 273]}, '10': {'Retries': 2, 'WallDurations': [9.0, 26165.0, 9.0, 24900.0, 14957.0], 'StartTimes': [1495205804.0, 1495233970.0, 1495260846.0], 'SubmitTimes': [1495205273.0, 1495233840.0, 1495260665.0], 'JobIds': ['8824511.0', '8840231.0', '8846609.0'], 'TotalUserCpuTimeHistory': [25865, 24608, 14698], 'EndTimes': [1495231969.0, 1495258870.0, 1495275803.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1118920, 1141052, 1122244], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- d23c19fd37df84308077d1761101571d618b8a2b40ff41a8c54678fd:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Rome', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [136, 133, 73]}, '13': {'Retries': 2, 'WallDurations': [9.0, 41929.0, 10.0, 39114.0, 20544.0], 'StartTimes': [1495205922.0, 1495251188.0, 1495292352.0], 'SubmitTimes': [1495205273.0, 1495249723.0, 1495292228.0], 'JobIds': ['8824513.0', '8843529.0', '8854195.0'], 'TotalUserCpuTimeHistory': [41513, 37432, 20229], 'EndTimes': [1495247851.0, 1495290302.0, 1495312896.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1060932, 1015296, 1156900], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 7ca7c361a4524d36b29d61f77275ee76a8312e638af1362f873ddec9:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Legnaro', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [149, 163, 94]}, '12': {'Retries': 2, 'WallDurations': [9.0, 62346.0, 30960.0, 36014.0], 'StartTimes': [1495205806.0, 1495270143.0, 1495345514.0], 'SubmitTimes': [1495205273.0, 1495270025.0, 1495345389.0], 'JobIds': ['8824512.0', '8850165.0', '8864552.0'], 'EndTimes': [1495268152.0, 1495381528.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1029876, 979740, 1004664], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 34342c14fab0a9cea1b8a72b9c1e5c8b19062bb060b4902f92b4675e:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [60327, 72805.0, 34564], 'SiteHistory': ['Unknown', 'T2_IT_Bari', 'T2_CH_CERN', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [227, 581.0, 247]}, '15': {'Retries': 2, 'WallDurations': [12.0, 26876.0, 36704.0, 32864.0], 'StartTimes': [1495206808.0, 1495235602.0, 1495274308.0], 'SubmitTimes': [1495205274.0, 1495235554.0, 1495274237.0], 'JobIds': ['8824518.0', '8841295.0', '8850586.0'], 'EndTimes': [1495233684.0, 1495272306.0, 1495307172.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1079908, 1136336, 1018156], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- deb00e7f9c237bd2b2533f5a79ef311ab675d27bc21234043fd68f50:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [26071, 36265, 32258], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'T2_IT_Rome', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [127, 133, 161]}, '14': {'Retries': 2, 'WallDurations': [9.0, 27915.0, 9.0, 32650.0, 31234.0], 'StartTimes': [1495206051.0, 1495235969.0, 1495270702.0], 'SubmitTimes': [1495205273.0, 1495235833.0, 1495270553.0], 'JobIds': ['8824514.0', '8841368.0', '8850219.0'], 'EndTimes': [1495233966.0, 1495268619.0, 1495301936.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1150060, 1250000, 1581616], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 879fdeff7be78f564beed3d76e825b0d6cf886615beed26396d7a90a:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [27529, 32013, 30426], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [138, 223, 209]}, '17': {'Retries': 2, 'WallDurations': [10.0, 28853.0, 43292.0, 38290.0], 'StartTimes': [1495206804.0, 1495237588.0, 1495283054.0], 'SubmitTimes': [1495205274.0, 1495237527.0, 1495282809.0], 'JobIds': ['8824519.0', '8841748.0', '8851365.0'], 'TotalUserCpuTimeHistory': [27979, 42200, 37859], 'EndTimes': [1495235657.0, 1495280880.0, 1495321344.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1025400, 1071104, 1053952], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 15399bb4e37bdf9e1dad73b7cafb1c9a4442ed6954eb02467a99ba14:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'T2_CH_CERN', 'T2_FR_IPHC'], 'TotalSysCpuTimeHistory': [139, 309, 189]}, '16': {'Retries': 2, 'WallDurations': [12.0, 32679.0, 8.0, 29140.0, 43919.0], 'StartTimes': [1495206185.0, 1495240855.0, 1495316229.0], 'SubmitTimes': [1495205274.0, 1495240734.0, 1495316133.0], 'JobIds': ['8824515.0', '8842157.0', '8858018.0'], 'EndTimes': [1495238864.0, 1495360148.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1014780, 1000000, 1079080], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- ed66d35a8216719f7131c27041378c5433529cd9e9678df5e3a9a9fc:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'TotalUserCpuTimeHistory': [31527, 72382.0, 42712], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_CH_CERN', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [164, 578.0, 276]}, '19': {'Retries': 0, 'WallDurations': [9.0, 14309.0], 'StartTimes': [1495206451.0], 'SubmitTimes': [1495205274.0], 'JobIds': ['8824517.0'], 'EndTimes': [1495220760.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1132456], 'TotalUserCpuTimeHistory': [14110], 'SiteHistory': ['Unknown', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [66]}, '18': {'Retries': 0, 'WallDurations': [9.0, 10751.0], 'StartTimes': [1495206324.0], 'SubmitTimes': [1495205274.0], 'JobIds': ['8824516.0'], 'EndTimes': [1495217075.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1151688], 'TotalUserCpuTimeHistory': [10603], 'SiteHistory': ['Unknown', 'T2_IT_Rome'], 'TotalSysCpuTimeHistory': [52]}, '31': {'Retries': 2, 'WallDurations': [9.0, 27927.0, 26582.0, 25180.0, 27506.0], 'StartTimes': [1495207671.0, 1495237588.0, 1495266180.0, 1495291476.0], 'SubmitTimes': [1495205275.0, 1495237471.0, 1495266100.0, -1], 'JobIds': ['8824526.0', '8841736.0', '8849063.0', '8849063.0'], 'TotalUserCpuTimeHistory': [27551, 25751, 21694.0, 26689], 'EndTimes': [1495235598.0, 1495264170.0, 1495291360.0, 1495318982.0], 'Restarts': 1, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1143180, 1075944, 896828, 1125428], 'Error': [90000, "Got recoverable stageout exception:\nStageout failed with code 1.\nThere were 1 failed/killed stageout jobs.\nFailure reasons (per document) follow:\n- 95eac6594ae81f8b737abd096781c54e461e1b0706a74212a295b97d:\n  ['Failure reason unavailable.']\n  The last failure reason is recoverable.", {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'T2_CH_CERN', 'T2_CH_CERN', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [105, 173, 164.0, 119]}, '30': {'Retries': 2, 'WallDurations': [9.0, 36849.0, 9.0, 32979.0, 1230.0], 'StartTimes': [1495207796.0, 1495247855.0, 1495282774.0], 'SubmitTimes': [1495205276.0, 1495246516.0, 1495282764.0], 'JobIds': ['8824531.0', '8842892.0', '8851364.0'], 'TotalUserCpuTimeHistory': [35954, 32631, 247], 'EndTimes': [1495244645.0, 1495280834.0, 1495284004.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [1148168, 1055836, 825952], 'Error': [139, 'CmsRunFailure', {}], 'SiteHistory': ['Unknown', 'T2_IT_Rome', 'Unknown', 'T2_IT_Rome', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [155, 130, 22]}}
+INFO 2017-05-22 10:38:27,182: 	 Status on the scheduler:	FAILED
+INFO 2017-05-22 10:38:27,182: 	 
+Jobs status:                    failed         93.5% (29/31)
+INFO 2017-05-22 10:38:27,183: 	 				finished        6.5% ( 2/31)
+INFO 2017-05-22 10:38:32,352: 	 
+No publication information available yet
+INFO 2017-05-22 10:38:32,353: 	 
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+25 jobs failed in postprocessing step
+
+ 1 jobs failed with exit code 8028
+
+ 1 jobs failed with exit code 139
+
+Could not find exit code details for 2 jobs.
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+INFO 2017-05-22 10:38:32,475: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_QCD_800_2/crab.log

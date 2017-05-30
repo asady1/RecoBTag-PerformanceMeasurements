@@ -1,0 +1,4 @@
+8939
+28
+{'1': {'Retries': 0, 'WallDurations': [9.0, 9197.0], 'StartTimes': [1495113299.0], 'SubmitTimes': [1495113237.0], 'JobIds': ['14191067.0'], 'EndTimes': [1495122496.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [958552], 'TotalUserCpuTimeHistory': [8811], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [88]}, 'DagStatus': {'Timestamp': 1495124304L, 'NodesTotal': 1L, 'DagStatus': 5L}}
+{(14191067L, 0L): '1'}

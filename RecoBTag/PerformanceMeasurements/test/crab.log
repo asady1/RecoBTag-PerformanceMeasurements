@@ -1,0 +1,36 @@
+DEBUG 2017-05-19 10:52:23,294: 	 Executing command: 'resubmit'
+DEBUG 2017-05-19 10:52:23,298: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+ERROR 2017-05-19 10:52:23,340: 	 Error: crab_t.py is not a valid CRAB project directory.
+ERROR 2017-05-19 10:52:23,340: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch4/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch4/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch4/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch4/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 257, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch4/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 257, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch4/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 566, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_t.py is not a valid CRAB project directory.
+DEBUG 2017-05-22 09:55:58,565: 	 Executing command: 'status'
+DEBUG 2017-05-22 09:55:58,580: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+ERROR 2017-05-22 09:55:58,605: 	 Error: crab_QCD_500_2/ is not a valid CRAB project directory.
+ERROR 2017-05-22 09:55:58,606: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch5/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch5/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch5/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 37, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch5/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 257, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch5/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 879, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1705.patch5/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 566, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_QCD_500_2/ is not a valid CRAB project directory.

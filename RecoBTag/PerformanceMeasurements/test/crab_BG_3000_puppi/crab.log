@@ -1,0 +1,241 @@
+WARNING: Both usePFchs and usePuppi set to True. Giving priority to Puppi.
+Running on data: False
+Running using FastSim samples: False
+Running on MiniAOD: True
+Using PFchs: False
+Using Puppi: True
+Using Puppi for b tagging: False
+Jet clustering: False
+WARNING: You requested Puppi fat jets which are not stored in any of the data-tiers. Enabling fat jet clustering.
+Fat jet clustering: True
+INFO: Removing b-tag discriminators already stored in MiniAOD (with the exception of JP taggers)
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+ ################################################################### 
+ # WARNING: this module is deprecated.                             # 
+ # Please use CondCore.CondDB.CondDB_cfi.py                        # 
+ ################################################################### 
+
+Using private SQLite file Summer16_23Sep2016V3_MC 
+
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsPFlow' and then applied to
+'updatedPatJetsTransientCorrectedPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPrunedSubjetsPFCHSPFlow as it has already been loaded in the process
+Switching PV collection for PF2PAT: cms.InputTag("offlineSlimmedPrimaryVertices")
+***********************************
+Switching 'addTagInfos' for patJetsFatPFCHSPFlow to 'True'
+Switching 'addTagInfos' for patJetsSoftDropSubjetsPFCHSPFlow to 'True'
+Switching 'addTagInfos' for patJetsPrunedSubjetsPFCHSPFlow to 'True'
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedPFlow to 'True'
+DEBUG 2017-05-30 12:07:05,080: 	 Executing command: 'submit'
+DEBUG 2017-05-30 12:07:05,081: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-30 12:07:05,091: 	 Checking credentials
+DEBUG 2017-05-30 12:07:05,091: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:07:05,091: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:07:05,194: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 86321
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:05,297: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 86321
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:05,297: 	 Proxy valid for 23:58:41 hours
+INFO 2017-05-30 12:07:05,297: 	 Will use CRAB configuration file crab_BG_3000.py
+DEBUG 2017-05-30 12:07:05,298: 	 Loading CRAB configuration file.
+DEBUG 2017-05-30 12:07:05,303: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2017-05-30 12:07:05,418: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:05,418: 	 Checking credentials
+DEBUG 2017-05-30 12:07:05,418: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-30 12:07:05,418: 	 Getting proxy life time left
+DEBUG 2017-05-30 12:07:05,521: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 86321
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:05,624: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 86321
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:05,625: 	 Proxy valid for 23:58:41 hours
+DEBUG 2017-05-30 12:07:05,728: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u48034 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:06,680: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-30 12:07:06,789: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:06,789: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-30 12:07:06,790: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-30 12:07:07,694: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 428:05:17  (17.8 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-30 12:07:07,695: 	 Myproxy is valid: 1541117
+DEBUG 2017-05-30 12:07:07,695: 	 Command use: submit
+DEBUG 2017-05-30 12:07:07,695: 	 Options use: ['crab_BG_3000.py']
+DEBUG 2017-05-30 12:07:08,588: 	 CRABClient version: 3.3.1705.patch6
+DEBUG 2017-05-30 12:07:08,588: 	 Instance is prod
+DEBUG 2017-05-30 12:07:08,588: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-30 12:07:08,588: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-30 12:07:08,588: 	 Started submission
+DEBUG 2017-05-30 12:07:08,588: 	 Working on /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_3000_puppi
+DEBUG 2017-05-30 12:07:09,572: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:07:09,572: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:07:09,572: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:07:09,572: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:07:09,588: 	 UNIQUE NAME: tarUUID 849a82ab-19bf-4fcc-aaa2-b2a6f27b123d 
+DEBUG 2017-05-30 12:07:09,588: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('General')
+config.General.transferOutputs = True
+config.General.requestName = 'BG_3000_puppi'
+config.section_('JobType')
+config.JobType.psetName = 'runBTagAnalyzer_cfg.py'
+config.JobType.pluginName = 'Analysis'
+config.JobType.pyCfgParams = ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'usePuppi=True']
+config.section_('Data')
+config.Data.inputDataset = '/BulkGravTohhTohVVhbb_narrow_M-3000_13TeV-madgraph/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM'
+config.Data.unitsPerJob = 10
+config.Data.outputDatasetTag = 'BG_3000_puppi'
+config.Data.splitting = 'FileBased'
+config.Data.inputDBS = 'global'
+config.section_('User')
+config.section_('Site')
+config.Site.storageSite = 'T3_US_FNALLPC'
+
+DEBUG 2017-05-30 12:07:09,588: 	 self.config.JobType.psetName: runBTagAnalyzer_cfg.py
+INFO 2017-05-30 12:07:09,588: 	 Importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-30 12:07:09,588: 	 Additional parameters for the CMSSW configuration are: ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'usePuppi=True']
+INFO 2017-05-30 12:07:13,054: 	 Finished importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-30 12:07:13,054: 	 Writing CMSSW configuration to /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_3000_puppi/inputs/PSet.py
+DEBUG 2017-05-30 12:07:14,252: 	 The following EDM output files will be collected: []
+DEBUG 2017-05-30 12:07:14,252: 	 The following TFile output files will be collected: ['JetTree_mc_FatJets_Subjets.root']
+DEBUG 2017-05-30 12:07:14,252: 	 The following user output files will be collected: []
+DEBUG 2017-05-30 12:07:14,253: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:07:14,253: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:07:14,253: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_3000_puppi/inputs/849a82ab-19bf-4fcc-aaa2-b2a6f27b123ddefault.tgz
+DEBUG 2017-05-30 12:07:14,253: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib
+DEBUG 2017-05-30 12:07:14,253: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib to tarball
+DEBUG 2017-05-30 12:07:17,340: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib
+DEBUG 2017-05-30 12:07:17,340: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib to tarball
+DEBUG 2017-05-30 12:07:17,341: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/module
+DEBUG 2017-05-30 12:07:18,151: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackHistory/interface to tarball
+DEBUG 2017-05-30 12:07:18,172: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackerHitAssociation/interface to tarball
+DEBUG 2017-05-30 12:07:18,178: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoB/interface to tarball
+DEBUG 2017-05-30 12:07:18,184: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/data to tarball
+DEBUG 2017-05-30 12:07:18,188: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/interface to tarball
+DEBUG 2017-05-30 12:07:18,203: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/DataFormats/BTauReco/interface to tarball
+DEBUG 2017-05-30 12:07:18,243: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/PhysicsTools/PatAlgos/interface to tarball
+DEBUG 2017-05-30 12:07:18,287: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/interface to tarball
+DEBUG 2017-05-30 12:07:18,306: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/data to tarball
+DEBUG 2017-05-30 12:07:18,318: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/DeepFlavour/data to tarball
+DEBUG 2017-05-30 12:07:18,508: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/LWTNN/interface to tarball
+DEBUG 2017-05-30 12:07:18,524: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/data to tarball
+DEBUG 2017-05-30 12:07:19,937: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/interface to tarball
+DEBUG 2017-05-30 12:07:20,039: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/ttbar/data to tarball
+DEBUG 2017-05-30 12:07:20,518: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_3000_puppi/inputs/849a82ab-19bf-4fcc-aaa2-b2a6f27b123ddefault.tgz (13 MB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-30 12:07:27,200: 	 Loading required information from the environment
+DEBUG 2017-05-30 12:07:27,200: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-30 12:07:27,200: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_3000_puppi/inputs/debugFiles.tgz
+DEBUG 2017-05-30 12:07:27,209: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_3000_puppi/inputs/debugFiles.tgz (12 KB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-30 12:07:28,491: 	 Result uploading input files: bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz 
+WARNING 2017-05-30 12:07:28,492: 	 Warning: The following output files will not be published, as they are not EDM files: ['JetTree_mc_FatJets_Subjets.root']
+INFO 2017-05-30 12:07:28,492: 	 Sending the request to the server
+DEBUG 2017-05-30 12:07:28,492: 	 Submitting {'maxjobruntime': 1250, 'extrajdl': [], 'ignorelocality': 0, 'savelogsflag': 0, 'useparent': 0, 'asyncdest': 'T3_US_FNALLPC', 'algoargs': 10, 'cachefilename': 'bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz', 'numcores': 1, 'addoutputfiles': [], 'generator': 'pythia', 'maxmemory': 2000, 'publishdbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', 'priority': 10, 'jobsw': 'CMSSW_8_0_23', 'edmoutfiles': [], 'userfiles': [], 'primarydataset': '', 'inputdata': '/BulkGravTohhTohVVhbb_narrow_M-3000_13TeV-madgraph/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', 'dryrun': 0, 'workflow': 'crab_BG_3000_puppi', 'cacheurl': u'https://cmsweb.cern.ch/crabcache', 'nonprodsw': 0, 'tfileoutfiles': ['JetTree_mc_FatJets_Subjets.root'], 'oneEventMode': 0, 'debugfilename': '5f337e7adcba706bb43dc2b2cff5df9b5521952af35bc10ede62396061517e8b.tar.gz', 'saveoutput': 1, 'publication': 1, 'jobarch': 'slc6_amd64_gcc530', 'totalunits': 0, 'splitalgo': 'FileBased', 'ignoreglobalblacklist': 0, 'nonvaliddata': 0, 'dbsurl': 'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', 'publishgroupname': 0, 'jobtype': 'Analysis', 'publishname2': 'BG_3000_puppi'} 
+DEBUG 2017-05-30 12:07:28,493: 	 Encoded submit request: maxjobruntime=1250&ignorelocality=0&savelogsflag=0&useparent=0&asyncdest=T3_US_FNALLPC&algoargs=10&cachefilename=bfb98e3c562f0ec6aa52a80a67a49eb5cadeb018033bb2d4cd52501a9317dbd2.tar.gz&numcores=1&generator=pythia&maxmemory=2000&publishdbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSWriter&priority=10&jobsw=CMSSW_8_0_23&primarydataset=&inputdata=%2FBulkGravTohhTohVVhbb_narrow_M-3000_13TeV-madgraph%2FRunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1%2FMINIAODSIM&dryrun=0&workflow=crab_BG_3000_puppi&cacheurl=https%3A%2F%2Fcmsweb.cern.ch%2Fcrabcache&nonprodsw=0&oneEventMode=0&debugfilename=5f337e7adcba706bb43dc2b2cff5df9b5521952af35bc10ede62396061517e8b.tar.gz&saveoutput=1&publication=1&jobarch=slc6_amd64_gcc530&totalunits=0&splitalgo=FileBased&ignoreglobalblacklist=0&nonvaliddata=0&dbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fglobal%2FDBSReader&publishgroupname=0&jobtype=Analysis&publishname2=BG_3000_puppi&tfileoutfiles=JetTree_mc_FatJets_Subjets.root
+DEBUG 2017-05-30 12:07:30,901: 	 Result: {u'result': [{u'RequestName': u'170530_170730:asady_crab_BG_3000_puppi'}]}
+INFO 2017-05-30 12:07:30,904: 	 Success: Your task has been delivered to the CRAB3 server.
+INFO 2017-05-30 12:07:30,904: 	 Task name: 170530_170730:asady_crab_BG_3000_puppi
+INFO 2017-05-30 12:07:30,905: 	 Please use 'crab status' to check how the submission process proceeds.
+DEBUG 2017-05-30 12:07:30,905: 	 About to return
+INFO 2017-05-30 12:07:30,911: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_BG_3000_puppi/crab.log

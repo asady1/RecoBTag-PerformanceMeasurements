@@ -1,0 +1,4 @@
+23344
+28
+{'1': {'Retries': 0, 'WallDurations': [9.0, 7779.0, 19845.0], 'StartTimes': [1495113709.0, 1495121570.0], 'SubmitTimes': [1495113587.0, -1], 'JobIds': ['7003958.0', '7003958.0'], 'EndTimes': [1495121488.0, 1495141415.0], 'Restarts': 1, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [878928, 1041732], 'TotalUserCpuTimeHistory': [2045.0, 16263], 'SiteHistory': ['Unknown', 'T2_US_Nebraska', 'T2_US_Vanderbilt'], 'TotalSysCpuTimeHistory': [13.0, 76]}, 'DagStatus': {'Timestamp': 1495143225L, 'NodesTotal': 1L, 'DagStatus': 5L}}
+{(7003958L, 0L): '1'}

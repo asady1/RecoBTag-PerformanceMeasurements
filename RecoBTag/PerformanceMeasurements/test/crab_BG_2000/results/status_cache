@@ -1,0 +1,4 @@
+9461
+28
+{'1': {'Retries': 0, 'WallDurations': [9.0, 17249.0], 'StartTimes': [1495113569.0], 'SubmitTimes': [1495113447.0], 'JobIds': ['6230531.0'], 'EndTimes': [1495130818.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [992104], 'TotalUserCpuTimeHistory': [16645], 'SiteHistory': ['Unknown', 'T1_US_FNAL'], 'TotalSysCpuTimeHistory': [220]}, 'DagStatus': {'Timestamp': 1495132629L, 'NodesTotal': 1L, 'DagStatus': 5L}}
+{(6230531L, 0L): '1'}

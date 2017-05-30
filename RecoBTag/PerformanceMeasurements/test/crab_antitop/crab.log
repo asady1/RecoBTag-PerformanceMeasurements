@@ -1,0 +1,743 @@
+Running on data: False
+Running using FastSim samples: False
+Running on MiniAOD: True
+Using PFchs: True
+Using Puppi: False
+Using Puppi for b tagging: False
+Jet clustering: False
+Fat jet clustering: False
+INFO: Removing b-tag discriminators already stored in MiniAOD (with the exception of JP taggers)
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+ ################################################################### 
+ # WARNING: this module is deprecated.                             # 
+ # Please use CondCore.CondDB.CondDB_cfi.py                        # 
+ ################################################################### 
+
+Using private SQLite file Summer16_23Sep2016V3_MC 
+
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsPFlow' and then applied to
+'updatedPatJetsTransientCorrectedPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsPFlow as it has already been loaded in the process
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsFatPFCHSPFlow' and then applied to
+'updatedPatJetsTransientCorrectedFatPFCHSPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsFatPFCHSPFlow as it has already been loaded in the process
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsSoftDropSubjetsPFCHSPFlow' and then applied to
+'updatedPatJetsTransientCorrectedSoftDropSubjetsPFCHSPFlow'.
+**************************************************************
+-------------------------------------------------------------------
+ Info: To run c tagging on MiniAOD, c-tag-specific IVF secondary
+       vertices will be remade.
+-------------------------------------------------------------------
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping deepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping negativeDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+skipping positiveDeepFlavourJetTagsSoftDropSubjetsPFCHSPFlow as it has already been loaded in the process
+Switching PV collection for PF2PAT: cms.InputTag("offlineSlimmedPrimaryVertices")
+***********************************
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedPFlow to 'True'
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedFatPFCHSPFlow to 'True'
+Switching 'addTagInfos' for updatedPatJetsTransientCorrectedSoftDropSubjetsPFCHSPFlow to 'True'
+DEBUG 2017-05-18 12:18:28,958: 	 Executing command: 'submit'
+DEBUG 2017-05-18 12:18:28,958: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-18 12:18:28,973: 	 Checking credentials
+DEBUG 2017-05-18 12:18:28,974: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-18 12:18:28,974: 	 Getting proxy life time left
+DEBUG 2017-05-18 12:18:29,077: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84730
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:29,180: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84730
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:29,180: 	 Proxy valid for 23:32:10 hours
+INFO 2017-05-18 12:18:29,181: 	 Will use CRAB configuration file crab_tbar.py
+DEBUG 2017-05-18 12:18:29,181: 	 Loading CRAB configuration file.
+DEBUG 2017-05-18 12:18:29,187: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2017-05-18 12:18:29,303: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:29,303: 	 Checking credentials
+DEBUG 2017-05-18 12:18:29,303: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-18 12:18:29,304: 	 Getting proxy life time left
+DEBUG 2017-05-18 12:18:29,407: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84730
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:29,510: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84730
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:29,510: 	 Proxy valid for 23:32:10 hours
+DEBUG 2017-05-18 12:18:29,614: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u48034 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:30,824: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-18 12:18:30,937: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:30,937: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-18 12:18:30,937: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-18 12:18:31,641: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 715:53:53  (29.8 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 12:18:31,643: 	 Myproxy is valid: 2577233
+DEBUG 2017-05-18 12:18:31,643: 	 Command use: submit
+DEBUG 2017-05-18 12:18:31,643: 	 Options use: ['crab_tbar.py']
+DEBUG 2017-05-18 12:18:32,801: 	 CRABClient version: 3.3.1705.patch4
+DEBUG 2017-05-18 12:18:32,802: 	 Instance is prod
+DEBUG 2017-05-18 12:18:32,802: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-18 12:18:32,802: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-18 12:18:32,802: 	 Started submission
+DEBUG 2017-05-18 12:18:32,802: 	 Working on /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop
+DEBUG 2017-05-18 12:18:34,007: 	 Loading required information from the environment
+DEBUG 2017-05-18 12:18:34,007: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-18 12:18:34,008: 	 Loading required information from the environment
+DEBUG 2017-05-18 12:18:34,008: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-18 12:18:34,026: 	 UNIQUE NAME: tarUUID cf41ff22-23f0-47e7-bfc9-32009faa2adb 
+DEBUG 2017-05-18 12:18:34,026: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('General')
+config.General.transferOutputs = True
+config.General.requestName = 'antitop'
+config.section_('JobType')
+config.JobType.psetName = 'runBTagAnalyzer_cfg.py'
+config.JobType.pluginName = 'Analysis'
+config.JobType.pyCfgParams = ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'remakeDoubleB=True']
+config.section_('Data')
+config.Data.inputDataset = '/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM'
+config.Data.outputDatasetTag = 'antitop'
+config.Data.totalUnits = 100000
+config.Data.unitsPerJob = 10
+config.Data.inputDBS = 'global'
+config.Data.splitting = 'FileBased'
+config.section_('User')
+config.section_('Site')
+config.Site.storageSite = 'T3_US_FNALLPC'
+
+DEBUG 2017-05-18 12:18:34,026: 	 self.config.JobType.psetName: runBTagAnalyzer_cfg.py
+INFO 2017-05-18 12:18:34,026: 	 Importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-18 12:18:34,027: 	 Additional parameters for the CMSSW configuration are: ['miniAOD=True', 'runFatJets=True', 'runSubJets=True', 'processStdAK4Jets=False', 'remakeDoubleB=True']
+INFO 2017-05-18 12:18:37,512: 	 Finished importing CMSSW configuration runBTagAnalyzer_cfg.py
+DEBUG 2017-05-18 12:18:37,512: 	 Writing CMSSW configuration to /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/inputs/PSet.py
+DEBUG 2017-05-18 12:18:39,023: 	 The following EDM output files will be collected: []
+DEBUG 2017-05-18 12:18:39,023: 	 The following TFile output files will be collected: ['JetTree_mc_FatJets_Subjets.root']
+DEBUG 2017-05-18 12:18:39,023: 	 The following user output files will be collected: []
+DEBUG 2017-05-18 12:18:39,023: 	 Loading required information from the environment
+DEBUG 2017-05-18 12:18:39,023: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-18 12:18:39,023: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/inputs/cf41ff22-23f0-47e7-bfc9-32009faa2adbdefault.tgz
+DEBUG 2017-05-18 12:18:39,024: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib
+DEBUG 2017-05-18 12:18:39,024: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/lib to tarball
+DEBUG 2017-05-18 12:18:42,304: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib
+DEBUG 2017-05-18 12:18:42,304: 	 Adding directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/biglib to tarball
+DEBUG 2017-05-18 12:18:42,306: 	 Checking directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/module
+DEBUG 2017-05-18 12:18:42,391: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackHistory/interface to tarball
+DEBUG 2017-05-18 12:18:42,403: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/SimTracker/TrackerHitAssociation/interface to tarball
+DEBUG 2017-05-18 12:18:42,407: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoB/interface to tarball
+DEBUG 2017-05-18 12:18:42,411: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/data to tarball
+DEBUG 2017-05-18 12:18:42,414: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/Validation/RecoVertex/interface to tarball
+DEBUG 2017-05-18 12:18:42,422: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/DataFormats/BTauReco/interface to tarball
+DEBUG 2017-05-18 12:18:42,446: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/PhysicsTools/PatAlgos/interface to tarball
+DEBUG 2017-05-18 12:18:42,468: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/interface to tarball
+DEBUG 2017-05-18 12:18:42,481: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/SecondaryVertex/data to tarball
+DEBUG 2017-05-18 12:18:42,490: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/DeepFlavour/data to tarball
+DEBUG 2017-05-18 12:18:42,648: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/LWTNN/interface to tarball
+DEBUG 2017-05-18 12:18:42,659: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/data to tarball
+DEBUG 2017-05-18 12:18:44,098: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/interface to tarball
+DEBUG 2017-05-18 12:18:44,156: 	 Adding data directory /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/ttbar/data to tarball
+DEBUG 2017-05-18 12:18:44,574: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/inputs/cf41ff22-23f0-47e7-bfc9-32009faa2adbdefault.tgz (13 MB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-18 12:18:51,472: 	 Loading required information from the environment
+DEBUG 2017-05-18 12:18:51,473: 	 Found CMSSW_8_0_23 for slc6_amd64_gcc530 with base /uscms_data/d3/asady1/LSF/CMSSW_8_0_23
+DEBUG 2017-05-18 12:18:51,473: 	 Making tarball in /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/inputs/debugFiles.tgz
+DEBUG 2017-05-18 12:18:51,485: 	 Uploading archive /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/inputs/debugFiles.tgz (12 KB) to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2017-05-18 12:18:52,933: 	 Result uploading input files: 810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz 
+WARNING 2017-05-18 12:18:52,934: 	 Warning: The following output files will not be published, as they are not EDM files: ['JetTree_mc_FatJets_Subjets.root']
+INFO 2017-05-18 12:18:52,934: 	 Sending the request to the server
+DEBUG 2017-05-18 12:18:52,934: 	 Submitting {'maxjobruntime': 1250, 'extrajdl': [], 'ignorelocality': 0, 'savelogsflag': 0, 'useparent': 0, 'asyncdest': 'T3_US_FNALLPC', 'algoargs': 10, 'cachefilename': '810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz', 'numcores': 1, 'addoutputfiles': [], 'generator': 'pythia', 'maxmemory': 2000, 'publishdbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', 'priority': 10, 'jobsw': 'CMSSW_8_0_23', 'edmoutfiles': [], 'userfiles': [], 'primarydataset': '', 'inputdata': '/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', 'dryrun': 0, 'workflow': 'crab_antitop', 'cacheurl': u'https://cmsweb.cern.ch/crabcache', 'nonprodsw': 0, 'tfileoutfiles': ['JetTree_mc_FatJets_Subjets.root'], 'oneEventMode': 0, 'debugfilename': '1bd616291de1bd252da6841adeada8da2f8e96658ba61b2986d49897180f2aaf.tar.gz', 'saveoutput': 1, 'publication': 1, 'jobarch': 'slc6_amd64_gcc530', 'totalunits': 100000, 'splitalgo': 'FileBased', 'ignoreglobalblacklist': 0, 'nonvaliddata': 0, 'dbsurl': 'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', 'publishgroupname': 0, 'jobtype': 'Analysis', 'publishname2': 'antitop'} 
+DEBUG 2017-05-18 12:18:52,935: 	 Encoded submit request: maxjobruntime=1250&ignorelocality=0&savelogsflag=0&useparent=0&asyncdest=T3_US_FNALLPC&algoargs=10&cachefilename=810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz&numcores=1&generator=pythia&maxmemory=2000&publishdbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSWriter&priority=10&jobsw=CMSSW_8_0_23&primarydataset=&inputdata=%2FTTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1%2FMINIAODSIM&dryrun=0&workflow=crab_antitop&cacheurl=https%3A%2F%2Fcmsweb.cern.ch%2Fcrabcache&nonprodsw=0&oneEventMode=0&debugfilename=1bd616291de1bd252da6841adeada8da2f8e96658ba61b2986d49897180f2aaf.tar.gz&saveoutput=1&publication=1&jobarch=slc6_amd64_gcc530&totalunits=100000&splitalgo=FileBased&ignoreglobalblacklist=0&nonvaliddata=0&dbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fglobal%2FDBSReader&publishgroupname=0&jobtype=Analysis&publishname2=antitop&tfileoutfiles=JetTree_mc_FatJets_Subjets.root
+DEBUG 2017-05-18 12:18:54,525: 	 Result: {u'result': [{u'RequestName': u'170518_171854:asady_crab_antitop'}]}
+INFO 2017-05-18 12:18:54,529: 	 Success: Your task has been delivered to the CRAB3 server.
+INFO 2017-05-18 12:18:54,529: 	 Task name: 170518_171854:asady_crab_antitop
+INFO 2017-05-18 12:18:54,529: 	 Please use 'crab status' to check how the submission process proceeds.
+DEBUG 2017-05-18 12:18:54,529: 	 About to return
+INFO 2017-05-18 12:18:54,536: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/crab.log
+DEBUG 2017-05-18 14:37:05,527: 	 Executing command: 'status'
+DEBUG 2017-05-18 14:37:05,528: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-18 14:37:05,546: 	 Checking credentials
+DEBUG 2017-05-18 14:37:05,546: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-18 14:37:05,546: 	 Getting proxy life time left
+DEBUG 2017-05-18 14:37:05,649: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 76414
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 14:37:05,753: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 76414
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 14:37:05,753: 	 Proxy valid for 21:13:34 hours
+DEBUG 2017-05-18 14:37:05,999: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 14:37:05,999: 	 Checking credentials
+DEBUG 2017-05-18 14:37:05,999: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-18 14:37:05,999: 	 Getting proxy life time left
+DEBUG 2017-05-18 14:37:06,103: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 76413
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 14:37:06,206: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 76413
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 14:37:06,207: 	 Proxy valid for 21:13:33 hours
+DEBUG 2017-05-18 14:37:07,369: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-18 14:37:07,479: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 14:37:07,479: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-18 14:37:07,479: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-18 14:37:08,384: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 713:35:16  (29.7 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-18 14:37:08,385: 	 Myproxy is valid: 2568916
+DEBUG 2017-05-18 14:37:08,385: 	 Command use: status
+DEBUG 2017-05-18 14:37:08,385: 	 Options use: ['crab_antitop/']
+DEBUG 2017-05-18 14:37:09,567: 	 CRABClient version: 3.3.1705.patch4
+DEBUG 2017-05-18 14:37:09,567: 	 Instance is prod
+DEBUG 2017-05-18 14:37:09,567: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-18 14:37:09,567: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-18 14:37:10,889: 	 Got information from server oracle database: {u'result': [u'170518_171854:asady_crab_antitop', u'None', u'SUBMITTED', u'2017-05-18 17:18:54.460046', u'None', u'2017-05-18 17:20:09.099771', u'None', u'CMSSW_8_0_23', u'slc6_amd64_gcc530', u'/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', u'[]', u'[]', u'FileBased', u"{'splitOnRun': False, 'halt_job_on_file_boundaries': False, 'files_per_job': 10, 'runs': [], 'lumis': []}", u'100000', u'810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz', u'https://cmsweb.cern.ch/crabcache', u'asady', u'/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros', u'cms', u'None', u'None', u'antitop-00000000000000000000000000000000', u'T3_US_FNALLPC', u'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', u'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', u'T', u'Analysis', u'{}', u'[]', u'F', u'vocms052', u'[]', u'1250', u'1', u'2000', u'10', u'None', u'http://vocms0195.cern.ch/mon/cms1311/170518_171854:asady_crab_antitop', u'None', u'None', u'[]', u'[]', u'[]', u'pythia', u'[]', u"['JetTree_mc_FatJets_Subjets.root']", u'[]', u'https://cmsweb.cern.ch/crabserver/prod', u'None', u'0', u'cmsgwms-collector-global.cern.ch:9620,cmssrv221.fnal.gov:9620', u'crab3@vocms0195.cern.ch', u'F', u'[]', u'T', u'/store/user/asady/', u'F', u'None', u'F', u'F', u'F', u'None', u'TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8', u'filetransfers', u'SUBMIT', u'7649750', u'1bd616291de1bd252da6841adeada8da2f8e96658ba61b2986d49897180f2aaf.tar.gz', u'131.225.189.232', u'F', u'None'], u'desc': {u'columns': [u'tm_taskname', u'panda_jobset_id', u'tm_task_status', u'tm_start_time', u'tm_start_injection', u'tm_end_injection', u'tm_task_failure', u'tm_job_sw', u'tm_job_arch', u'tm_input_dataset', u'tm_site_whitelist', u'tm_site_blacklist', u'tm_split_algo', u'tm_split_args', u'tm_totalunits', u'tm_user_sandbox', u'tm_cache_url', u'tm_username', u'tm_user_dn', u'tm_user_vo', u'tm_user_role', u'tm_user_group', u'tm_publish_name', u'tm_asyncdest', u'tm_dbs_url', u'tm_publish_dbs_url', u'tm_publication', u'tm_job_type', u'tm_arguments', u'panda_resubmitted_jobs', u'tm_save_logs', u'tw_name', u'tm_user_infiles', u'tm_maxjobruntime', u'tm_numcores', u'tm_maxmemory', u'tm_priority', u'tm_output_dataset', u'tm_user_webdir', u'tm_activity', u'tm_scriptexe', u'tm_scriptargs', u'tm_extrajdl', u'tm_task_warnings', u'tm_generator', u'tm_outfiles', u'tm_tfile_outfiles', u'tm_edm_outfiles', u'tm_asourl', u'tm_events_per_lumi', u'tm_use_parent', u'tm_collector', u'tm_schedd', u'tm_dry_run', u'tm_user_files', u'tm_transfer_outputs', u'tm_output_lfn', u'tm_ignore_locality', u'tm_fail_limit', u'tm_one_event_mode', u'tm_publish_groupname', u'tm_nonvalid_input_dataset', u'tm_secondary_input_dataset', u'tm_primary_dataset', u'tm_asodb', u'tm_task_command', u'clusterid', u'tm_debug_files', u'tm_submitter_ip_addr', u'tm_ignore_global_blacklist', u'tm_last_publication']}}
+INFO 2017-05-18 14:37:10,890: 	 CRAB project directory:		/uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop
+INFO 2017-05-18 14:37:10,890: 	 Task name:			170518_171854:asady_crab_antitop
+INFO 2017-05-18 14:37:10,890: 	 Grid scheduler:			crab3@vocms0195.cern.ch
+INFO 2017-05-18 14:37:10,890: 	 Status on the CRAB server:	SUBMITTED
+INFO 2017-05-18 14:37:10,890: 	 Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/170518_171854%3Aasady_crab_antitop
+INFO 2017-05-18 14:37:10,890: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=asady&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=170518_171854%3Aasady_crab_antitop
+DEBUG 2017-05-18 14:37:10,891: 	 The CRAB server submitted your task to the Grid scheduler (cluster ID: 7649750)
+DEBUG 2017-05-18 14:37:10,891: 	 Webdir is located at http://vocms0195.cern.ch/mon/cms1311/170518_171854:asady_crab_antitop
+DEBUG 2017-05-18 14:37:12,184: 	 Proxied webdir is located at https://cmsweb.cern.ch/scheddmon/0195/cms1311/170518_171854:asady_crab_antitop
+DEBUG 2017-05-18 14:37:12,184: 	 Retrieving 'status_cache' file from https://cmsweb.cern.ch/scheddmon/0195/cms1311/170518_171854:asady_crab_antitop/status_cache
+DEBUG 2017-05-18 14:37:13,341: 	 Got information from status cache file: {'11': {'Retries': 0, 'WallDurations': [9.0, 7523.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649753.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1140572], 'TotalUserCpuTimeHistory': [6941.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [121.0]}, '10': {'Retries': 0, 'WallDurations': [9.0, 6322.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649752.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1126108], 'TotalUserCpuTimeHistory': [6052.0], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [84.0]}, '13': {'Retries': 0, 'WallDurations': [10.0, 4217.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128006.0], 'JobIds': ['7649770.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1208644], 'TotalUserCpuTimeHistory': [4044.0], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [63.0]}, '12': {'Retries': 0, 'WallDurations': [9.0, 4219.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649761.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1142400], 'TotalUserCpuTimeHistory': [3980.0], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [61.0]}, '15': {'Retries': 0, 'WallDurations': [9.0, 3315.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649768.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1228092], 'TotalUserCpuTimeHistory': [3124.0], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [47.0]}, '14': {'Retries': 0, 'WallDurations': [8.0, 5717.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649760.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [998832], 'TotalUserCpuTimeHistory': [5323.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [97.0]}, '17': {'Retries': 0, 'WallDurations': [10.0, 4517.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649766.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1192440], 'TotalUserCpuTimeHistory': [4280.0], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [71.0]}, '16': {'Retries': 0, 'WallDurations': [9.0, 5721.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649769.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1125196], 'TotalUserCpuTimeHistory': [5274.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [91.0]}, '19': {'Retries': 0, 'WallDurations': [8.0, 6923.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649767.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1183388], 'TotalUserCpuTimeHistory': [6382.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [109.0]}, '18': {'Retries': 0, 'WallDurations': [10.0, 5716.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649765.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1140152], 'TotalUserCpuTimeHistory': [5494.0], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [86.0]}, '1': {'Retries': 0, 'WallDurations': [9.0, 4217.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649754.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1178068], 'TotalUserCpuTimeHistory': [4058.0], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [56.0]}, '3': {'Retries': 0, 'WallDurations': [8.0, 7825.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649756.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1048908], 'TotalUserCpuTimeHistory': [7415.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [120.0]}, '2': {'Retries': 0, 'WallDurations': [8.0, 6321.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649755.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [987836], 'TotalUserCpuTimeHistory': [5936.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [105.0]}, '5': {'Retries': 0, 'WallDurations': [8.0, 6022.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649764.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [957524], 'TotalUserCpuTimeHistory': [5645.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [90.0]}, '4': {'Retries': 0, 'WallDurations': [9.0, 5117.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649758.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1003168], 'TotalUserCpuTimeHistory': [4056.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [84.0]}, '7': {'Retries': 0, 'WallDurations': [8.0, 7225.0], 'StartTimes': [1495128169.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649759.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1173744], 'TotalUserCpuTimeHistory': [6898.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [118.0]}, '6': {'Retries': 0, 'WallDurations': [8.0, 7824.0], 'StartTimes': [1495128172.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649763.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1028888], 'TotalUserCpuTimeHistory': [7135.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [125.0]}, '9': {'Retries': 0, 'WallDurations': [9.0, 4218.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649762.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1056524], 'TotalUserCpuTimeHistory': [4000.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [67.0]}, '20': {'Retries': 0, 'WallDurations': [8.0, 4215.0], 'StartTimes': [1495128172.0], 'SubmitTimes': [1495128006.0], 'JobIds': ['7649771.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [1026120], 'TotalUserCpuTimeHistory': [3177.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [75.0]}, '8': {'Retries': 0, 'WallDurations': [8.0, 3313.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649757.0'], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'running', 'ResidentSetSize': [964748], 'TotalUserCpuTimeHistory': [3022.0], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [54.0]}}
+INFO 2017-05-18 14:37:13,341: 	 Status on the scheduler:	SUBMITTED
+INFO 2017-05-18 14:37:13,342: 	 
+Jobs status:                    running       100.0% (20/20)
+INFO 2017-05-18 14:37:13,342: 	 
+No publication information available yet
+INFO 2017-05-18 14:37:13,612: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/crab.log
+DEBUG 2017-05-19 09:54:44,085: 	 Executing command: 'status'
+DEBUG 2017-05-19 09:54:44,086: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-19 09:54:44,126: 	 Checking credentials
+DEBUG 2017-05-19 09:54:44,127: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:54:44,127: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:54:44,341: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84358
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:54:44,552: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84358
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:54:44,552: 	 Proxy valid for 23:25:58 hours
+DEBUG 2017-05-19 09:54:44,717: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:54:44,717: 	 Checking credentials
+DEBUG 2017-05-19 09:54:44,717: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:54:44,717: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:54:44,933: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84358
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:54:45,155: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84357
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:54:45,155: 	 Proxy valid for 23:25:58 hours
+DEBUG 2017-05-19 09:54:46,847: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-19 09:54:47,085: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:54:47,085: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-19 09:54:47,085: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-19 09:54:47,999: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 694:17:37  (28.9 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:54:48,001: 	 Myproxy is valid: 2499457
+DEBUG 2017-05-19 09:54:48,001: 	 Command use: status
+DEBUG 2017-05-19 09:54:48,001: 	 Options use: ['crab_antitop/']
+DEBUG 2017-05-19 09:54:49,799: 	 CRABClient version: 3.3.1705.patch4
+DEBUG 2017-05-19 09:54:49,800: 	 Instance is prod
+DEBUG 2017-05-19 09:54:49,800: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-19 09:54:49,800: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-19 09:54:51,367: 	 Got information from server oracle database: {u'result': [u'170518_171854:asady_crab_antitop', u'None', u'SUBMITTED', u'2017-05-18 17:18:54.460046', u'None', u'2017-05-18 17:20:09.099771', u'None', u'CMSSW_8_0_23', u'slc6_amd64_gcc530', u'/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', u'[]', u'[]', u'FileBased', u"{'splitOnRun': False, 'halt_job_on_file_boundaries': False, 'files_per_job': 10, 'runs': [], 'lumis': []}", u'100000', u'810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz', u'https://cmsweb.cern.ch/crabcache', u'asady', u'/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros', u'cms', u'None', u'None', u'antitop-00000000000000000000000000000000', u'T3_US_FNALLPC', u'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', u'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', u'T', u'Analysis', u'{}', u'[]', u'F', u'vocms052', u'[]', u'1250', u'1', u'2000', u'10', u'None', u'http://vocms0195.cern.ch/mon/cms1311/170518_171854:asady_crab_antitop', u'None', u'None', u'[]', u'[]', u'[]', u'pythia', u'[]', u"['JetTree_mc_FatJets_Subjets.root']", u'[]', u'https://cmsweb.cern.ch/crabserver/prod', u'None', u'0', u'cmsgwms-collector-global.cern.ch:9620,cmssrv221.fnal.gov:9620', u'crab3@vocms0195.cern.ch', u'F', u'[]', u'T', u'/store/user/asady/', u'F', u'None', u'F', u'F', u'F', u'None', u'TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8', u'filetransfers', u'SUBMIT', u'7649750', u'1bd616291de1bd252da6841adeada8da2f8e96658ba61b2986d49897180f2aaf.tar.gz', u'131.225.189.232', u'F', u'None'], u'desc': {u'columns': [u'tm_taskname', u'panda_jobset_id', u'tm_task_status', u'tm_start_time', u'tm_start_injection', u'tm_end_injection', u'tm_task_failure', u'tm_job_sw', u'tm_job_arch', u'tm_input_dataset', u'tm_site_whitelist', u'tm_site_blacklist', u'tm_split_algo', u'tm_split_args', u'tm_totalunits', u'tm_user_sandbox', u'tm_cache_url', u'tm_username', u'tm_user_dn', u'tm_user_vo', u'tm_user_role', u'tm_user_group', u'tm_publish_name', u'tm_asyncdest', u'tm_dbs_url', u'tm_publish_dbs_url', u'tm_publication', u'tm_job_type', u'tm_arguments', u'panda_resubmitted_jobs', u'tm_save_logs', u'tw_name', u'tm_user_infiles', u'tm_maxjobruntime', u'tm_numcores', u'tm_maxmemory', u'tm_priority', u'tm_output_dataset', u'tm_user_webdir', u'tm_activity', u'tm_scriptexe', u'tm_scriptargs', u'tm_extrajdl', u'tm_task_warnings', u'tm_generator', u'tm_outfiles', u'tm_tfile_outfiles', u'tm_edm_outfiles', u'tm_asourl', u'tm_events_per_lumi', u'tm_use_parent', u'tm_collector', u'tm_schedd', u'tm_dry_run', u'tm_user_files', u'tm_transfer_outputs', u'tm_output_lfn', u'tm_ignore_locality', u'tm_fail_limit', u'tm_one_event_mode', u'tm_publish_groupname', u'tm_nonvalid_input_dataset', u'tm_secondary_input_dataset', u'tm_primary_dataset', u'tm_asodb', u'tm_task_command', u'clusterid', u'tm_debug_files', u'tm_submitter_ip_addr', u'tm_ignore_global_blacklist', u'tm_last_publication']}}
+INFO 2017-05-19 09:54:51,368: 	 CRAB project directory:		/uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop
+INFO 2017-05-19 09:54:51,368: 	 Task name:			170518_171854:asady_crab_antitop
+INFO 2017-05-19 09:54:51,368: 	 Grid scheduler:			crab3@vocms0195.cern.ch
+INFO 2017-05-19 09:54:51,368: 	 Status on the CRAB server:	SUBMITTED
+INFO 2017-05-19 09:54:51,368: 	 Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/170518_171854%3Aasady_crab_antitop
+INFO 2017-05-19 09:54:51,369: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=asady&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=170518_171854%3Aasady_crab_antitop
+DEBUG 2017-05-19 09:54:51,369: 	 The CRAB server submitted your task to the Grid scheduler (cluster ID: 7649750)
+DEBUG 2017-05-19 09:54:51,369: 	 Webdir is located at http://vocms0195.cern.ch/mon/cms1311/170518_171854:asady_crab_antitop
+DEBUG 2017-05-19 09:54:53,285: 	 Proxied webdir is located at https://cmsweb.cern.ch/scheddmon/0195/cms1311/170518_171854:asady_crab_antitop
+DEBUG 2017-05-19 09:54:53,285: 	 Retrieving 'status_cache' file from https://cmsweb.cern.ch/scheddmon/0195/cms1311/170518_171854:asady_crab_antitop/status_cache
+DEBUG 2017-05-19 09:54:54,826: 	 Got information from status cache file: {'11': {'Retries': 0, 'WallDurations': [9.0, 54720.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649753.0'], 'EndTimes': [1495182890.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1140572], 'TotalUserCpuTimeHistory': [50619], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [841]}, '10': {'Retries': 0, 'WallDurations': [9.0, 37302.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649752.0'], 'EndTimes': [1495165472.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1138064], 'TotalUserCpuTimeHistory': [35077], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [483]}, '13': {'Retries': 0, 'WallDurations': [10.0, 62078.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128006.0], 'JobIds': ['7649770.0'], 'EndTimes': [1495190251.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1208644], 'TotalUserCpuTimeHistory': [60051], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [857]}, '12': {'Retries': 0, 'WallDurations': [9.0, 32683.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649761.0'], 'EndTimes': [1495160853.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1175588], 'TotalUserCpuTimeHistory': [31370], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [449]}, '15': {'Retries': 0, 'WallDurations': [9.0, 52633.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649768.0'], 'EndTimes': [1495180803.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1228092], 'TotalUserCpuTimeHistory': [49672], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [694]}, '14': {'Retries': 0, 'WallDurations': [8.0, 50062.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649760.0'], 'EndTimes': [1495178233.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1995848], 'TotalUserCpuTimeHistory': [46756], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [798]}, '17': {'Retries': 0, 'WallDurations': [10.0, 57470.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649766.0'], 'EndTimes': [1495185643.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1225812], 'TotalUserCpuTimeHistory': [54031], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [1186]}, '16': {'Retries': 0, 'WallDurations': [9.0, 40433.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649769.0'], 'EndTimes': [1495168604.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1125196], 'TotalUserCpuTimeHistory': [37462], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [615]}, '19': {'Retries': 0, 'WallDurations': [8.0, 50357.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649767.0'], 'EndTimes': [1495178528.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1183388], 'TotalUserCpuTimeHistory': [47119], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [769]}, '18': {'Retries': 0, 'WallDurations': [10.0, 58950.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649765.0'], 'EndTimes': [1495187123.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1149816], 'TotalUserCpuTimeHistory': [56786], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [854]}, '1': {'Retries': 0, 'WallDurations': [9.0, 53513.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649754.0'], 'EndTimes': [1495181687.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1178068], 'TotalUserCpuTimeHistory': [52118], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [691]}, '3': {'Retries': 0, 'WallDurations': [8.0, 54604.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649756.0'], 'EndTimes': [1495182774.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1064228], 'TotalUserCpuTimeHistory': [51588], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [807]}, '2': {'Retries': 0, 'WallDurations': [8.0, 45441.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649755.0'], 'EndTimes': [1495173612.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1037300], 'TotalUserCpuTimeHistory': [42116], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [712]}, '5': {'Retries': 0, 'WallDurations': [8.0, 62483.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649764.0'], 'EndTimes': [1495190653.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1024936], 'TotalUserCpuTimeHistory': [59557], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [900]}, '4': {'Retries': 0, 'WallDurations': [9.0, 46956.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649758.0'], 'EndTimes': [1495175130.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1040052], 'TotalUserCpuTimeHistory': [41234], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [780]}, '7': {'Retries': 0, 'WallDurations': [8.0, 45429.0], 'StartTimes': [1495128169.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649759.0'], 'EndTimes': [1495173598.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1173744], 'TotalUserCpuTimeHistory': [42930], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [709]}, '6': {'Retries': 0, 'WallDurations': [8.0, 58768.0], 'StartTimes': [1495128172.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649763.0'], 'EndTimes': [1495186940.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1048344], 'TotalUserCpuTimeHistory': [54392], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [899]}, '9': {'Retries': 0, 'WallDurations': [9.0, 51023.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649762.0'], 'EndTimes': [1495179194.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1056524], 'TotalUserCpuTimeHistory': [48145], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [781]}, '20': {'Retries': 0, 'WallDurations': [8.0, 34046.0], 'StartTimes': [1495128172.0], 'SubmitTimes': [1495128006.0], 'JobIds': ['7649771.0'], 'EndTimes': [1495162218.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1040932], 'TotalUserCpuTimeHistory': [28834], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [611]}, '8': {'Retries': 0, 'WallDurations': [8.0, 49468.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649757.0'], 'EndTimes': [1495177642.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1916752], 'TotalUserCpuTimeHistory': [44636], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [756]}}
+INFO 2017-05-19 09:54:54,826: 	 Status on the scheduler:	COMPLETED
+INFO 2017-05-19 09:54:54,827: 	 
+Jobs status:                    finished      100.0% (20/20)
+INFO 2017-05-19 09:54:56,650: 	 
+No publication information available yet
+INFO 2017-05-19 09:54:56,695: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/crab.log
+DEBUG 2017-05-19 09:55:11,363: 	 Executing command: 'getoutput'
+DEBUG 2017-05-19 09:55:11,366: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-19 09:55:11,405: 	 Checking credentials
+DEBUG 2017-05-19 09:55:11,406: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:55:11,406: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:55:11,620: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84331
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:11,835: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84331
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:11,836: 	 Proxy valid for 23:25:31 hours
+DEBUG 2017-05-19 09:55:11,837: 	 Using VO group '' and VO role 'NULL' as written in the request cache file for this task.
+DEBUG 2017-05-19 09:55:11,970: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:11,971: 	 Checking credentials
+DEBUG 2017-05-19 09:55:11,971: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:55:11,971: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:55:12,085: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84330
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:12,199: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84330
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:12,199: 	 Proxy valid for 23:25:30 hours
+DEBUG 2017-05-19 09:55:12,302: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u48034 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:13,717: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-19 09:55:13,851: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:13,852: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-19 09:55:13,852: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-19 09:55:14,567: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 694:17:10  (28.9 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:14,569: 	 Myproxy is valid: 2499430
+DEBUG 2017-05-19 09:55:14,569: 	 Command use: getoutput
+DEBUG 2017-05-19 09:55:14,569: 	 Options use: ['crab_antitop/']
+DEBUG 2017-05-19 09:55:15,822: 	 CRABClient version: 3.3.1705.patch4
+DEBUG 2017-05-19 09:55:15,822: 	 Instance is prod
+DEBUG 2017-05-19 09:55:15,822: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-19 09:55:15,822: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-19 09:55:15,822: 	 Executing command: 'status'
+DEBUG 2017-05-19 09:55:15,823: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-19 09:55:15,843: 	 Checking credentials
+DEBUG 2017-05-19 09:55:15,843: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:55:15,843: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:55:15,962: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84327
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:16,177: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84326
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:16,177: 	 Proxy valid for 23:25:27 hours
+DEBUG 2017-05-19 09:55:16,318: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:16,318: 	 Checking credentials
+DEBUG 2017-05-19 09:55:16,318: 	 Found proxy file /tmp/x509up_u48034
+DEBUG 2017-05-19 09:55:16,318: 	 Getting proxy life time left
+DEBUG 2017-05-19 09:55:16,532: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -timeleft
+ output : 84326
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:16,647: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u48034 -actimeleft
+ output : 84326
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:16,647: 	 Proxy valid for 23:25:26 hours
+DEBUG 2017-05-19 09:55:17,803: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-05-19 09:55:17,938: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:17,938: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-05-19 09:55:17,938: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros_cmsweb.cern.ch for credential name
+DEBUG 2017-05-19 09:55:18,746: 	 Executing : 
+ command : myproxy-info -l 9d3a3db6aaa933bc97dce3925b948fa526f13054 -s myproxy.cern.ch
+ output : username: 9d3a3db6aaa933bc97dce3925b948fa526f13054
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 694:17:06  (28.9 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-05-19 09:55:18,746: 	 Myproxy is valid: 2499426
+DEBUG 2017-05-19 09:55:18,746: 	 Command use: status
+DEBUG 2017-05-19 09:55:18,746: 	 Options use: []
+DEBUG 2017-05-19 09:55:20,059: 	 CRABClient version: 3.3.1705.patch4
+DEBUG 2017-05-19 09:55:20,060: 	 Instance is prod
+DEBUG 2017-05-19 09:55:20,060: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-19 09:55:20,060: 	 Command url /crabserver/prod/workflow
+DEBUG 2017-05-19 09:55:21,256: 	 Got information from server oracle database: {u'result': [u'170518_171854:asady_crab_antitop', u'None', u'SUBMITTED', u'2017-05-18 17:18:54.460046', u'None', u'2017-05-18 17:20:09.099771', u'None', u'CMSSW_8_0_23', u'slc6_amd64_gcc530', u'/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', u'[]', u'[]', u'FileBased', u"{'splitOnRun': False, 'halt_job_on_file_boundaries': False, 'files_per_job': 10, 'runs': [], 'lumis': []}", u'100000', u'810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz', u'https://cmsweb.cern.ch/crabcache', u'asady', u'/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros', u'cms', u'None', u'None', u'antitop-00000000000000000000000000000000', u'T3_US_FNALLPC', u'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', u'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', u'T', u'Analysis', u'{}', u'[]', u'F', u'vocms052', u'[]', u'1250', u'1', u'2000', u'10', u'None', u'http://vocms0195.cern.ch/mon/cms1311/170518_171854:asady_crab_antitop', u'None', u'None', u'[]', u'[]', u'[]', u'pythia', u'[]', u"['JetTree_mc_FatJets_Subjets.root']", u'[]', u'https://cmsweb.cern.ch/crabserver/prod', u'None', u'0', u'cmsgwms-collector-global.cern.ch:9620,cmssrv221.fnal.gov:9620', u'crab3@vocms0195.cern.ch', u'F', u'[]', u'T', u'/store/user/asady/', u'F', u'None', u'F', u'F', u'F', u'None', u'TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8', u'filetransfers', u'SUBMIT', u'7649750', u'1bd616291de1bd252da6841adeada8da2f8e96658ba61b2986d49897180f2aaf.tar.gz', u'131.225.189.232', u'F', u'None'], u'desc': {u'columns': [u'tm_taskname', u'panda_jobset_id', u'tm_task_status', u'tm_start_time', u'tm_start_injection', u'tm_end_injection', u'tm_task_failure', u'tm_job_sw', u'tm_job_arch', u'tm_input_dataset', u'tm_site_whitelist', u'tm_site_blacklist', u'tm_split_algo', u'tm_split_args', u'tm_totalunits', u'tm_user_sandbox', u'tm_cache_url', u'tm_username', u'tm_user_dn', u'tm_user_vo', u'tm_user_role', u'tm_user_group', u'tm_publish_name', u'tm_asyncdest', u'tm_dbs_url', u'tm_publish_dbs_url', u'tm_publication', u'tm_job_type', u'tm_arguments', u'panda_resubmitted_jobs', u'tm_save_logs', u'tw_name', u'tm_user_infiles', u'tm_maxjobruntime', u'tm_numcores', u'tm_maxmemory', u'tm_priority', u'tm_output_dataset', u'tm_user_webdir', u'tm_activity', u'tm_scriptexe', u'tm_scriptargs', u'tm_extrajdl', u'tm_task_warnings', u'tm_generator', u'tm_outfiles', u'tm_tfile_outfiles', u'tm_edm_outfiles', u'tm_asourl', u'tm_events_per_lumi', u'tm_use_parent', u'tm_collector', u'tm_schedd', u'tm_dry_run', u'tm_user_files', u'tm_transfer_outputs', u'tm_output_lfn', u'tm_ignore_locality', u'tm_fail_limit', u'tm_one_event_mode', u'tm_publish_groupname', u'tm_nonvalid_input_dataset', u'tm_secondary_input_dataset', u'tm_primary_dataset', u'tm_asodb', u'tm_task_command', u'clusterid', u'tm_debug_files', u'tm_submitter_ip_addr', u'tm_ignore_global_blacklist', u'tm_last_publication']}}
+INFO 2017-05-19 09:55:21,256: 	 CRAB project directory:		/uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop
+INFO 2017-05-19 09:55:21,256: 	 Task name:			170518_171854:asady_crab_antitop
+INFO 2017-05-19 09:55:21,256: 	 Grid scheduler:			crab3@vocms0195.cern.ch
+INFO 2017-05-19 09:55:21,256: 	 Status on the CRAB server:	SUBMITTED
+INFO 2017-05-19 09:55:21,257: 	 Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/170518_171854%3Aasady_crab_antitop
+INFO 2017-05-19 09:55:21,257: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=asady&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=170518_171854%3Aasady_crab_antitop
+DEBUG 2017-05-19 09:55:21,257: 	 The CRAB server submitted your task to the Grid scheduler (cluster ID: 7649750)
+DEBUG 2017-05-19 09:55:21,257: 	 Webdir is located at http://vocms0195.cern.ch/mon/cms1311/170518_171854:asady_crab_antitop
+DEBUG 2017-05-19 09:55:22,364: 	 Proxied webdir is located at https://cmsweb.cern.ch/scheddmon/0195/cms1311/170518_171854:asady_crab_antitop
+DEBUG 2017-05-19 09:55:22,364: 	 Retrieving 'status_cache' file from https://cmsweb.cern.ch/scheddmon/0195/cms1311/170518_171854:asady_crab_antitop/status_cache
+DEBUG 2017-05-19 09:55:23,485: 	 Got information from status cache file: {'11': {'Retries': 0, 'WallDurations': [9.0, 54720.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649753.0'], 'EndTimes': [1495182890.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1140572], 'TotalUserCpuTimeHistory': [50619], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [841]}, '10': {'Retries': 0, 'WallDurations': [9.0, 37302.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649752.0'], 'EndTimes': [1495165472.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1138064], 'TotalUserCpuTimeHistory': [35077], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [483]}, '13': {'Retries': 0, 'WallDurations': [10.0, 62078.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128006.0], 'JobIds': ['7649770.0'], 'EndTimes': [1495190251.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1208644], 'TotalUserCpuTimeHistory': [60051], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [857]}, '12': {'Retries': 0, 'WallDurations': [9.0, 32683.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649761.0'], 'EndTimes': [1495160853.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1175588], 'TotalUserCpuTimeHistory': [31370], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [449]}, '15': {'Retries': 0, 'WallDurations': [9.0, 52633.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649768.0'], 'EndTimes': [1495180803.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1228092], 'TotalUserCpuTimeHistory': [49672], 'SiteHistory': ['Unknown', 'T2_IT_Legnaro'], 'TotalSysCpuTimeHistory': [694]}, '14': {'Retries': 0, 'WallDurations': [8.0, 50062.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649760.0'], 'EndTimes': [1495178233.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1995848], 'TotalUserCpuTimeHistory': [46756], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [798]}, '17': {'Retries': 0, 'WallDurations': [10.0, 57470.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649766.0'], 'EndTimes': [1495185643.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1225812], 'TotalUserCpuTimeHistory': [54031], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [1186]}, '16': {'Retries': 0, 'WallDurations': [9.0, 40433.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649769.0'], 'EndTimes': [1495168604.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1125196], 'TotalUserCpuTimeHistory': [37462], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [615]}, '19': {'Retries': 0, 'WallDurations': [8.0, 50357.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649767.0'], 'EndTimes': [1495178528.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1183388], 'TotalUserCpuTimeHistory': [47119], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [769]}, '18': {'Retries': 0, 'WallDurations': [10.0, 58950.0], 'StartTimes': [1495128173.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649765.0'], 'EndTimes': [1495187123.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1149816], 'TotalUserCpuTimeHistory': [56786], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [854]}, '1': {'Retries': 0, 'WallDurations': [9.0, 53513.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649754.0'], 'EndTimes': [1495181687.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1178068], 'TotalUserCpuTimeHistory': [52118], 'SiteHistory': ['Unknown', 'T2_BE_IIHE'], 'TotalSysCpuTimeHistory': [691]}, '3': {'Retries': 0, 'WallDurations': [8.0, 54604.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649756.0'], 'EndTimes': [1495182774.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1064228], 'TotalUserCpuTimeHistory': [51588], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [807]}, '2': {'Retries': 0, 'WallDurations': [8.0, 45441.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128003.0], 'JobIds': ['7649755.0'], 'EndTimes': [1495173612.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1037300], 'TotalUserCpuTimeHistory': [42116], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [712]}, '5': {'Retries': 0, 'WallDurations': [8.0, 62483.0], 'StartTimes': [1495128170.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649764.0'], 'EndTimes': [1495190653.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1024936], 'TotalUserCpuTimeHistory': [59557], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [900]}, '4': {'Retries': 0, 'WallDurations': [9.0, 46956.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649758.0'], 'EndTimes': [1495175130.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1040052], 'TotalUserCpuTimeHistory': [41234], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [780]}, '7': {'Retries': 0, 'WallDurations': [8.0, 45429.0], 'StartTimes': [1495128169.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649759.0'], 'EndTimes': [1495173598.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1173744], 'TotalUserCpuTimeHistory': [42930], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [709]}, '6': {'Retries': 0, 'WallDurations': [8.0, 58768.0], 'StartTimes': [1495128172.0], 'SubmitTimes': [1495128005.0], 'JobIds': ['7649763.0'], 'EndTimes': [1495186940.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1048344], 'TotalUserCpuTimeHistory': [54392], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [899]}, '9': {'Retries': 0, 'WallDurations': [9.0, 51023.0], 'StartTimes': [1495128171.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649762.0'], 'EndTimes': [1495179194.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1056524], 'TotalUserCpuTimeHistory': [48145], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [781]}, '20': {'Retries': 0, 'WallDurations': [8.0, 34046.0], 'StartTimes': [1495128172.0], 'SubmitTimes': [1495128006.0], 'JobIds': ['7649771.0'], 'EndTimes': [1495162218.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1040932], 'TotalUserCpuTimeHistory': [28834], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [611]}, '8': {'Retries': 0, 'WallDurations': [8.0, 49468.0], 'StartTimes': [1495128174.0], 'SubmitTimes': [1495128004.0], 'JobIds': ['7649757.0'], 'EndTimes': [1495177642.0], 'Restarts': 0, 'RecordedSite': True, 'State': 'finished', 'ResidentSetSize': [1916752], 'TotalUserCpuTimeHistory': [44636], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [756]}}
+INFO 2017-05-19 09:55:23,485: 	 Status on the scheduler:	COMPLETED
+INFO 2017-05-19 09:55:23,485: 	 
+Jobs status:                    finished      100.0% (20/20)
+INFO 2017-05-19 09:55:24,616: 	 
+No publication information available yet
+DEBUG 2017-05-19 09:55:25,714: 	 Server result: {u'result': [u'170518_171854:asady_crab_antitop', u'None', u'SUBMITTED', u'2017-05-18 17:18:54.460046', u'None', u'2017-05-18 17:20:09.099771', u'None', u'CMSSW_8_0_23', u'slc6_amd64_gcc530', u'/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM', u'[]', u'[]', u'FileBased', u"{'splitOnRun': False, 'halt_job_on_file_boundaries': False, 'files_per_job': 10, 'runs': [], 'lumis': []}", u'100000', u'810ca26f2aee7212e93ea22887bbdd789263deedff51ecc2549e1a6bee1255cc.tar.gz', u'https://cmsweb.cern.ch/crabcache', u'asady', u'/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=asady/CN=735393/CN=Alice Adrienne Cocoros', u'cms', u'None', u'None', u'antitop-00000000000000000000000000000000', u'T3_US_FNALLPC', u'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', u'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', u'T', u'Analysis', u'{}', u'[]', u'F', u'vocms052', u'[]', u'1250', u'1', u'2000', u'10', u'None', u'http://vocms0195.cern.ch/mon/cms1311/170518_171854:asady_crab_antitop', u'None', u'None', u'[]', u'[]', u'[]', u'pythia', u'[]', u"['JetTree_mc_FatJets_Subjets.root']", u'[]', u'https://cmsweb.cern.ch/crabserver/prod', u'None', u'0', u'cmsgwms-collector-global.cern.ch:9620,cmssrv221.fnal.gov:9620', u'crab3@vocms0195.cern.ch', u'F', u'[]', u'T', u'/store/user/asady/', u'F', u'None', u'F', u'F', u'F', u'None', u'TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8', u'filetransfers', u'SUBMIT', u'7649750', u'1bd616291de1bd252da6841adeada8da2f8e96658ba61b2986d49897180f2aaf.tar.gz', u'131.225.189.232', u'F', u'None'], u'desc': {u'columns': [u'tm_taskname', u'panda_jobset_id', u'tm_task_status', u'tm_start_time', u'tm_start_injection', u'tm_end_injection', u'tm_task_failure', u'tm_job_sw', u'tm_job_arch', u'tm_input_dataset', u'tm_site_whitelist', u'tm_site_blacklist', u'tm_split_algo', u'tm_split_args', u'tm_totalunits', u'tm_user_sandbox', u'tm_cache_url', u'tm_username', u'tm_user_dn', u'tm_user_vo', u'tm_user_role', u'tm_user_group', u'tm_publish_name', u'tm_asyncdest', u'tm_dbs_url', u'tm_publish_dbs_url', u'tm_publication', u'tm_job_type', u'tm_arguments', u'panda_resubmitted_jobs', u'tm_save_logs', u'tw_name', u'tm_user_infiles', u'tm_maxjobruntime', u'tm_numcores', u'tm_maxmemory', u'tm_priority', u'tm_output_dataset', u'tm_user_webdir', u'tm_activity', u'tm_scriptexe', u'tm_scriptargs', u'tm_extrajdl', u'tm_task_warnings', u'tm_generator', u'tm_outfiles', u'tm_tfile_outfiles', u'tm_edm_outfiles', u'tm_asourl', u'tm_events_per_lumi', u'tm_use_parent', u'tm_collector', u'tm_schedd', u'tm_dry_run', u'tm_user_files', u'tm_transfer_outputs', u'tm_output_lfn', u'tm_ignore_locality', u'tm_fail_limit', u'tm_one_event_mode', u'tm_publish_groupname', u'tm_nonvalid_input_dataset', u'tm_secondary_input_dataset', u'tm_primary_dataset', u'tm_asodb', u'tm_task_command', u'clusterid', u'tm_debug_files', u'tm_submitter_ip_addr', u'tm_ignore_global_blacklist', u'tm_last_publication']}}
+DEBUG 2017-05-19 09:55:25,714: 	 Retrieving locations for task 170518_171854:asady_crab_antitop
+DEBUG 2017-05-19 09:55:25,714: 	 Retrieving all file locations
+DEBUG 2017-05-19 09:55:25,714: 	 Retrieving jobs [('jobids', '11'), ('jobids', '10'), ('jobids', '13'), ('jobids', '12'), ('jobids', '15'), ('jobids', '14'), ('jobids', '17'), ('jobids', '16'), ('jobids', '19'), ('jobids', '18'), ('jobids', '1'), ('jobids', '3'), ('jobids', '2'), ('jobids', '5'), ('jobids', '4'), ('jobids', '7'), ('jobids', '6'), ('jobids', '9'), ('jobids', '20'), ('jobids', '8')]
+DEBUG 2017-05-19 09:55:26,855: 	 Server result: {u'result': [{u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'30f4ffcf', u'cksum': 2658482097, u'md5': u'30f4ffcf'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_13.root', u'site': u'T3_US_FNALLPC', u'jobid': u'13', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_13.root', u'size': 923520190, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'5a09d21b', u'cksum': 4110223509, u'md5': u'5a09d21b'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_5.root', u'site': u'T3_US_FNALLPC', u'jobid': u'5', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_5.root', u'size': 962661046, u'directstageout': u'F'}, {u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'f4339570', u'cksum': 3595149722, u'md5': u'f4339570'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_17.root', u'site': u'T3_US_FNALLPC', u'jobid': u'17', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_17.root', u'size': 961329637, u'directstageout': u'F'}, {u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'18db3dfc', u'cksum': 3291938772, u'md5': u'18db3dfc'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_18.root', u'site': u'T3_US_FNALLPC', u'jobid': u'18', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_18.root', u'size': 990862228, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'f195f15d', u'cksum': 3014482320, u'md5': u'f195f15d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_6.root', u'site': u'T3_US_FNALLPC', u'jobid': u'6', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_6.root', u'size': 1047635439, u'directstageout': u'F'}, {u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'10a9951d', u'cksum': 1687167759, u'md5': u'10a9951d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_1.root', u'site': u'T3_US_FNALLPC', u'jobid': u'1', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_1.root', u'size': 1011924546, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'49527830', u'cksum': 202947854, u'md5': u'49527830'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_11.root', u'site': u'T3_US_FNALLPC', u'jobid': u'11', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_11.root', u'size': 975307643, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'1cf0ccd4', u'cksum': 457829308, u'md5': u'1cf0ccd4'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_3.root', u'site': u'T3_US_FNALLPC', u'jobid': u'3', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_3.root', u'size': 964728637, u'directstageout': u'F'}, {u'tmpsite': u'T2_IT_Legnaro', u'checksum': {u'adler32': u'6a4a2d14', u'cksum': 3810544751, u'md5': u'6a4a2d14'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_15.root', u'site': u'T3_US_FNALLPC', u'jobid': u'15', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_15.root', u'size': 1036578265, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'32116207', u'cksum': 3793623226, u'md5': u'32116207'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_9.root', u'site': u'T3_US_FNALLPC', u'jobid': u'9', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_9.root', u'size': 967617440, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'1e6d390a', u'cksum': 1031551669, u'md5': u'1e6d390a'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_19.root', u'site': u'T3_US_FNALLPC', u'jobid': u'19', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_19.root', u'size': 878740508, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'753d7d92', u'cksum': 2665098911, u'md5': u'753d7d92'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_14.root', u'site': u'T3_US_FNALLPC', u'jobid': u'14', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_14.root', u'size': 865884324, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'd6a4af16', u'cksum': 2673983497, u'md5': u'd6a4af16'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_8.root', u'site': u'T3_US_FNALLPC', u'jobid': u'8', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_8.root', u'size': 937496428, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'aabfcba0', u'cksum': 1070057708, u'md5': u'aabfcba0'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_4.root', u'site': u'T3_US_FNALLPC', u'jobid': u'4', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_4.root', u'size': 883164872, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'72d00c7a', u'cksum': 1098199933, u'md5': u'72d00c7a'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_2.root', u'site': u'T3_US_FNALLPC', u'jobid': u'2', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_2.root', u'size': 791264894, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'5953e88d', u'cksum': 518071798, u'md5': u'5953e88d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_7.root', u'site': u'T3_US_FNALLPC', u'jobid': u'7', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_7.root', u'size': 814824339, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'85ea3e73', u'cksum': 3569396617, u'md5': u'85ea3e73'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_16.root', u'site': u'T3_US_FNALLPC', u'jobid': u'16', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_16.root', u'size': 777963497, u'directstageout': u'F'}, {u'tmpsite': u'T2_IT_Legnaro', u'checksum': {u'adler32': u'53e0aa0d', u'cksum': 2791747450, u'md5': u'53e0aa0d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_10.root', u'site': u'T3_US_FNALLPC', u'jobid': u'10', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_10.root', u'size': 883159090, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'891645e3', u'cksum': 4007624891, u'md5': u'891645e3'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_20.root', u'site': u'T3_US_FNALLPC', u'jobid': u'20', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_20.root', u'size': 597004643, u'directstageout': u'F'}, {u'tmpsite': u'T2_IT_Legnaro', u'checksum': {u'adler32': u'18c269f7', u'cksum': 2167682498, u'md5': u'18c269f7'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_12.root', u'site': u'T3_US_FNALLPC', u'jobid': u'12', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_12.root', u'size': 858002571, u'directstageout': u'F'}]}
+DEBUG 2017-05-19 09:55:26,855: 	 Service initialised ({'endpoint': 'https://cmsweb.cern.ch/phedex/datasvc/json/prod/', 'key': '/tmp/x509up_u48034', 'maxcachereuse': 24.0, 'cachepath': '/tmp/.wmcore_cache_uovPUy/cmsweb.cern.ch', 'inputdata': {}, 'cert': '/tmp/x509up_u48034', 'timeout': 300, 'service_name': 'PhEDEx', 'requests': {'content_type': 'application/x-www-form-urlencoded', 'cacheduration': 0, 'host': 'https://cmsweb.cern.ch/phedex/datasvc/json/prod/', 'accept_type': 'text/html', 'key': '/tmp/x509up_u48034', 'deleteCacheOnExit': <WMCore.Services.Requests.TempDirectory object at 0x7f30887de050>, 'endpoint_components': ParseResult(scheme='https', netloc='cmsweb.cern.ch', path='/phedex/datasvc/json/prod/', params='', query='', fragment=''), 'endpoint': 'https://cmsweb.cern.ch/phedex/datasvc/json/prod/', 'pycurl': True, 'cachepath': '/tmp/.wmcore_cache_uovPUy/cmsweb.cern.ch', 'cert': '/tmp/x509up_u48034', 'timeout': 300, 'req_cache_path': '/tmp/.wmcore_cache_uovPUy/cmsweb.cern.ch/.cache', 'logger': <logging.Logger object at 0x7f308882f890>}, 'logger': <logging.Logger object at 0x7f308882f890>, 'cacheduration': 0, 'method': None, 'pycurl': True}):
+	 host: cmsweb.cern.ch, basepath: https://cmsweb.cern.ch/phedex/datasvc/json/prod/ (text/html)
+	 cache: /tmp/.wmcore_cache_uovPUy/cmsweb.cern.ch (duration 0 hours, max reuse 24.0 hours)
+DEBUG 2017-05-19 09:55:26,856: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_13.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:27,967: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_5.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:29,066: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_17.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:30,155: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_18.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:31,121: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_6.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:32,142: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_1.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:33,274: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_11.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:34,170: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_3.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:35,131: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_15.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:36,123: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_9.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:37,204: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_19.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:38,116: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_14.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:39,067: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_8.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:39,949: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_4.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:40,834: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_2.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:41,735: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_7.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:42,615: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_16.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:43,536: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_10.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:44,427: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_20.root', 'protocol': 'srmv2'}
+DEBUG 2017-05-19 09:55:45,327: 	 getData: 
+	url: lfn2pfn
+	data: {'node': u'T3_US_FNALLPC', 'custodial': 'n', 'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_12.root', 'protocol': 'srmv2'}
+INFO 2017-05-19 09:55:46,231: 	 Setting the destination to /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results 
+INFO 2017-05-19 09:55:46,231: 	 Retrieving 20 files
+DEBUG 2017-05-19 09:55:46,231: 	 Executing command: 'remote_copy'
+DEBUG 2017-05-19 09:55:46,239: 	 Found CRAB cache file /uscms/home/asady1/.crab3
+DEBUG 2017-05-19 09:55:46,244: 	 Skipping proxy creation
+DEBUG 2017-05-19 09:55:46,244: 	 Command use: remote_copy
+DEBUG 2017-05-19 09:55:46,244: 	 Options use: ['--destination', '/uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results', '--input', [{u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'30f4ffcf', u'cksum': 2658482097, u'md5': u'30f4ffcf'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_13.root', u'site': u'T3_US_FNALLPC', u'jobid': u'13', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_13.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_13.root', u'size': 923520190, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'5a09d21b', u'cksum': 4110223509, u'md5': u'5a09d21b'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_5.root', u'site': u'T3_US_FNALLPC', u'jobid': u'5', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_5.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_5.root', u'size': 962661046, u'directstageout': u'F'}, {u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'f4339570', u'cksum': 3595149722, u'md5': u'f4339570'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_17.root', u'site': u'T3_US_FNALLPC', u'jobid': u'17', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_17.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_17.root', u'size': 961329637, u'directstageout': u'F'}, {u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'18db3dfc', u'cksum': 3291938772, u'md5': u'18db3dfc'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_18.root', u'site': u'T3_US_FNALLPC', u'jobid': u'18', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_18.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_18.root', u'size': 990862228, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'f195f15d', u'cksum': 3014482320, u'md5': u'f195f15d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_6.root', u'site': u'T3_US_FNALLPC', u'jobid': u'6', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_6.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_6.root', u'size': 1047635439, u'directstageout': u'F'}, {u'tmpsite': u'T2_BE_IIHE', u'checksum': {u'adler32': u'10a9951d', u'cksum': 1687167759, u'md5': u'10a9951d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_1.root', u'site': u'T3_US_FNALLPC', u'jobid': u'1', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_1.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_1.root', u'size': 1011924546, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'49527830', u'cksum': 202947854, u'md5': u'49527830'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_11.root', u'site': u'T3_US_FNALLPC', u'jobid': u'11', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_11.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_11.root', u'size': 975307643, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'1cf0ccd4', u'cksum': 457829308, u'md5': u'1cf0ccd4'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_3.root', u'site': u'T3_US_FNALLPC', u'jobid': u'3', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_3.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_3.root', u'size': 964728637, u'directstageout': u'F'}, {u'tmpsite': u'T2_IT_Legnaro', u'checksum': {u'adler32': u'6a4a2d14', u'cksum': 3810544751, u'md5': u'6a4a2d14'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_15.root', u'site': u'T3_US_FNALLPC', u'jobid': u'15', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_15.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_15.root', u'size': 1036578265, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'32116207', u'cksum': 3793623226, u'md5': u'32116207'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_9.root', u'site': u'T3_US_FNALLPC', u'jobid': u'9', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_9.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_9.root', u'size': 967617440, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'1e6d390a', u'cksum': 1031551669, u'md5': u'1e6d390a'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_19.root', u'site': u'T3_US_FNALLPC', u'jobid': u'19', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_19.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_19.root', u'size': 878740508, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'753d7d92', u'cksum': 2665098911, u'md5': u'753d7d92'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_14.root', u'site': u'T3_US_FNALLPC', u'jobid': u'14', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_14.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_14.root', u'size': 865884324, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'd6a4af16', u'cksum': 2673983497, u'md5': u'd6a4af16'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_8.root', u'site': u'T3_US_FNALLPC', u'jobid': u'8', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_8.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_8.root', u'size': 937496428, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'aabfcba0', u'cksum': 1070057708, u'md5': u'aabfcba0'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_4.root', u'site': u'T3_US_FNALLPC', u'jobid': u'4', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_4.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_4.root', u'size': 883164872, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'72d00c7a', u'cksum': 1098199933, u'md5': u'72d00c7a'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_2.root', u'site': u'T3_US_FNALLPC', u'jobid': u'2', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_2.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_2.root', u'size': 791264894, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'5953e88d', u'cksum': 518071798, u'md5': u'5953e88d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_7.root', u'site': u'T3_US_FNALLPC', u'jobid': u'7', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_7.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_7.root', u'size': 814824339, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'85ea3e73', u'cksum': 3569396617, u'md5': u'85ea3e73'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_16.root', u'site': u'T3_US_FNALLPC', u'jobid': u'16', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_16.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_16.root', u'size': 777963497, u'directstageout': u'F'}, {u'tmpsite': u'T2_IT_Legnaro', u'checksum': {u'adler32': u'53e0aa0d', u'cksum': 2791747450, u'md5': u'53e0aa0d'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_10.root', u'site': u'T3_US_FNALLPC', u'jobid': u'10', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_10.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_10.root', u'size': 883159090, u'directstageout': u'F'}, {u'tmpsite': u'T2_CH_CERN', u'checksum': {u'adler32': u'891645e3', u'cksum': 4007624891, u'md5': u'891645e3'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_20.root', u'site': u'T3_US_FNALLPC', u'jobid': u'20', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_20.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_20.root', u'size': 597004643, u'directstageout': u'F'}, {u'tmpsite': u'T2_IT_Legnaro', u'checksum': {u'adler32': u'18c269f7', u'cksum': 2167682498, u'md5': u'18c269f7'}, u'lfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_12.root', u'site': u'T3_US_FNALLPC', u'jobid': u'12', 'pfn': u'srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_12.root', u'tmplfn': u'/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_12.root', u'size': 858002571, u'directstageout': u'F'}], '--dir', 'crab_antitop/', '--proxy', '/tmp/x509up_u48034', '--parallel', None, '--wait', None, '--checksum', 'ADLER32', '--command', None]
+DEBUG 2017-05-19 09:55:47,366: 	 CRABClient version: 3.3.1705.patch4
+DEBUG 2017-05-19 09:55:47,366: 	 Instance is prod
+DEBUG 2017-05-19 09:55:47,366: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-05-19 09:55:47,366: 	 Command url /crabserver/prod/workflow
+INFO 2017-05-19 09:55:47,379: 	 Will use `gfal-copy` command for file transfers
+DEBUG 2017-05-19 09:55:47,456: 	 Starting ChildProcess with 10 ChildProcess
+INFO 2017-05-19 09:55:47,473: 	 Placing file 'JetTree_mc_FatJets_Subjets_13.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,478: 	 Placing file 'JetTree_mc_FatJets_Subjets_5.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,484: 	 Placing file 'JetTree_mc_FatJets_Subjets_17.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,489: 	 Placing file 'JetTree_mc_FatJets_Subjets_18.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,493: 	 Placing file 'JetTree_mc_FatJets_Subjets_6.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,498: 	 Placing file 'JetTree_mc_FatJets_Subjets_1.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,503: 	 Placing file 'JetTree_mc_FatJets_Subjets_11.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,508: 	 Placing file 'JetTree_mc_FatJets_Subjets_3.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,513: 	 Placing file 'JetTree_mc_FatJets_Subjets_15.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,517: 	 Placing file 'JetTree_mc_FatJets_Subjets_9.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,522: 	 Placing file 'JetTree_mc_FatJets_Subjets_19.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,527: 	 Placing file 'JetTree_mc_FatJets_Subjets_14.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,533: 	 Placing file 'JetTree_mc_FatJets_Subjets_8.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,538: 	 Placing file 'JetTree_mc_FatJets_Subjets_4.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,544: 	 Placing file 'JetTree_mc_FatJets_Subjets_2.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,548: 	 Placing file 'JetTree_mc_FatJets_Subjets_7.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,554: 	 Placing file 'JetTree_mc_FatJets_Subjets_16.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,559: 	 Placing file 'JetTree_mc_FatJets_Subjets_10.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,566: 	 Placing file 'JetTree_mc_FatJets_Subjets_20.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,573: 	 Placing file 'JetTree_mc_FatJets_Subjets_12.root' in retrieval queue 
+INFO 2017-05-19 09:55:47,573: 	 Please wait
+DEBUG 2017-05-19 09:55:47,573: 	 stopchildproc() method has been called
+DEBUG 2017-05-19 09:59:58,747: 	 The output of the transfer subprocesses follows:
+DEBUG 2017-05-19 09:59:58,748: 	 	INFO 2017-05-19 09:55:47,474: 	 Retrieving JetTree_mc_FatJets_Subjets_13.root 
+DEBUG 2017-05-19 09:59:58,748: 	 	DEBUG 2017-05-19 09:55:47,475: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7216  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_13.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_13.root
+DEBUG 2017-05-19 09:59:58,748: 	 	INFO 2017-05-19 09:55:47,478: 	 Retrieving JetTree_mc_FatJets_Subjets_5.root 
+DEBUG 2017-05-19 09:59:58,748: 	 	DEBUG 2017-05-19 09:55:47,479: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7521  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_5.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_5.root
+DEBUG 2017-05-19 09:59:58,748: 	 	INFO 2017-05-19 09:55:47,486: 	 Retrieving JetTree_mc_FatJets_Subjets_17.root 
+DEBUG 2017-05-19 09:59:58,748: 	 	DEBUG 2017-05-19 09:55:47,487: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7511  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_17.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_17.root
+DEBUG 2017-05-19 09:59:58,748: 	 	INFO 2017-05-19 09:55:47,490: 	 Retrieving JetTree_mc_FatJets_Subjets_18.root 
+DEBUG 2017-05-19 09:59:58,748: 	 	DEBUG 2017-05-19 09:55:47,491: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7742  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_18.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_18.root
+DEBUG 2017-05-19 09:59:58,748: 	 	INFO 2017-05-19 09:55:47,494: 	 Retrieving JetTree_mc_FatJets_Subjets_6.root 
+DEBUG 2017-05-19 09:59:58,748: 	 	DEBUG 2017-05-19 09:55:47,495: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 8185  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_6.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_6.root
+DEBUG 2017-05-19 09:59:58,749: 	 	INFO 2017-05-19 09:55:47,499: 	 Retrieving JetTree_mc_FatJets_Subjets_1.root 
+DEBUG 2017-05-19 09:59:58,749: 	 	DEBUG 2017-05-19 09:55:47,500: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7906  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_1.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_1.root
+DEBUG 2017-05-19 09:59:58,749: 	 	INFO 2017-05-19 09:55:47,504: 	 Retrieving JetTree_mc_FatJets_Subjets_11.root 
+DEBUG 2017-05-19 09:59:58,749: 	 	DEBUG 2017-05-19 09:55:47,506: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7620  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_11.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_11.root
+DEBUG 2017-05-19 09:59:58,749: 	 	INFO 2017-05-19 09:55:47,509: 	 Retrieving JetTree_mc_FatJets_Subjets_3.root 
+DEBUG 2017-05-19 09:59:58,749: 	 	DEBUG 2017-05-19 09:55:47,510: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7537  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_3.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_3.root
+DEBUG 2017-05-19 09:59:58,749: 	 	INFO 2017-05-19 09:55:47,514: 	 Retrieving JetTree_mc_FatJets_Subjets_15.root 
+DEBUG 2017-05-19 09:59:58,749: 	 	DEBUG 2017-05-19 09:55:47,515: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 8099  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_15.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_15.root
+DEBUG 2017-05-19 09:59:58,749: 	 	INFO 2017-05-19 09:55:47,518: 	 Retrieving JetTree_mc_FatJets_Subjets_9.root 
+DEBUG 2017-05-19 09:59:58,749: 	 	DEBUG 2017-05-19 09:55:47,520: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7560  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_9.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_9.root
+DEBUG 2017-05-19 09:59:58,749: 	 	DEBUG 2017-05-19 09:57:02,596: 	 Finish executing for file JetTree_mc_FatJets_Subjets_1.root
+DEBUG 2017-05-19 09:59:58,749: 	 	INFO 2017-05-19 09:57:02,637: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_1.root 
+DEBUG 2017-05-19 09:59:58,749: 	 	INFO 2017-05-19 09:57:02,639: 	 Retrieving JetTree_mc_FatJets_Subjets_19.root 
+DEBUG 2017-05-19 09:59:58,749: 	 	DEBUG 2017-05-19 09:57:02,640: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6866  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_19.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_19.root
+DEBUG 2017-05-19 09:59:58,750: 	 	DEBUG 2017-05-19 09:57:24,935: 	 Finish executing for file JetTree_mc_FatJets_Subjets_3.root
+DEBUG 2017-05-19 09:59:58,750: 	 	INFO 2017-05-19 09:57:24,984: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_3.root 
+DEBUG 2017-05-19 09:59:58,750: 	 	INFO 2017-05-19 09:57:25,042: 	 Retrieving JetTree_mc_FatJets_Subjets_14.root 
+DEBUG 2017-05-19 09:59:58,750: 	 	DEBUG 2017-05-19 09:57:25,042: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6765  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_14.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_14.root
+DEBUG 2017-05-19 09:59:58,750: 	 	DEBUG 2017-05-19 09:58:04,691: 	 Finish executing for file JetTree_mc_FatJets_Subjets_18.root
+DEBUG 2017-05-19 09:59:58,750: 	 	INFO 2017-05-19 09:58:04,716: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_18.root 
+DEBUG 2017-05-19 09:59:58,750: 	 	INFO 2017-05-19 09:58:04,717: 	 Retrieving JetTree_mc_FatJets_Subjets_8.root 
+DEBUG 2017-05-19 09:59:58,750: 	 	DEBUG 2017-05-19 09:58:04,718: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 7325  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_8.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_8.root
+DEBUG 2017-05-19 09:59:58,750: 	 	DEBUG 2017-05-19 09:58:07,160: 	 Finish executing for file JetTree_mc_FatJets_Subjets_14.root
+DEBUG 2017-05-19 09:59:58,750: 	 	INFO 2017-05-19 09:58:07,160: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_14.root 
+DEBUG 2017-05-19 09:59:58,751: 	 	INFO 2017-05-19 09:58:07,160: 	 Retrieving JetTree_mc_FatJets_Subjets_4.root 
+DEBUG 2017-05-19 09:59:58,751: 	 	DEBUG 2017-05-19 09:58:07,160: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6900  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_4.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_4.root
+DEBUG 2017-05-19 09:59:58,751: 	 	DEBUG 2017-05-19 09:58:09,399: 	 Finish executing for file JetTree_mc_FatJets_Subjets_9.root
+DEBUG 2017-05-19 09:59:58,751: 	 	INFO 2017-05-19 09:58:09,399: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_9.root 
+DEBUG 2017-05-19 09:59:58,751: 	 	INFO 2017-05-19 09:58:09,447: 	 Retrieving JetTree_mc_FatJets_Subjets_2.root 
+DEBUG 2017-05-19 09:59:58,751: 	 	DEBUG 2017-05-19 09:58:09,447: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6182  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_2.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_2.root
+DEBUG 2017-05-19 09:59:58,751: 	 	DEBUG 2017-05-19 09:58:17,961: 	 Finish executing for file JetTree_mc_FatJets_Subjets_5.root
+DEBUG 2017-05-19 09:59:58,751: 	 	INFO 2017-05-19 09:58:17,961: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_5.root 
+DEBUG 2017-05-19 09:59:58,751: 	 	INFO 2017-05-19 09:58:18,019: 	 Retrieving JetTree_mc_FatJets_Subjets_7.root 
+DEBUG 2017-05-19 09:59:58,751: 	 	DEBUG 2017-05-19 09:58:18,019: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6366  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_7.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_7.root
+DEBUG 2017-05-19 09:59:58,751: 	 	DEBUG 2017-05-19 09:58:18,139: 	 Finish executing for file JetTree_mc_FatJets_Subjets_13.root
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:18,139: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_13.root 
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:18,141: 	 Retrieving JetTree_mc_FatJets_Subjets_16.root 
+DEBUG 2017-05-19 09:59:58,752: 	 	DEBUG 2017-05-19 09:58:18,141: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6078  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_16.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_16.root
+DEBUG 2017-05-19 09:59:58,752: 	 	DEBUG 2017-05-19 09:58:19,978: 	 Finish executing for file JetTree_mc_FatJets_Subjets_15.root
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:19,978: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_15.root 
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:19,980: 	 Retrieving JetTree_mc_FatJets_Subjets_10.root 
+DEBUG 2017-05-19 09:59:58,752: 	 	DEBUG 2017-05-19 09:58:19,980: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6900  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_10.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_10.root
+DEBUG 2017-05-19 09:59:58,752: 	 	DEBUG 2017-05-19 09:58:23,263: 	 Finish executing for file JetTree_mc_FatJets_Subjets_6.root
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:23,263: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_6.root 
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:23,265: 	 Retrieving JetTree_mc_FatJets_Subjets_20.root 
+DEBUG 2017-05-19 09:59:58,752: 	 	DEBUG 2017-05-19 09:58:23,265: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 4665  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_20.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_20.root
+DEBUG 2017-05-19 09:59:58,752: 	 	DEBUG 2017-05-19 09:58:23,787: 	 Finish executing for file JetTree_mc_FatJets_Subjets_17.root
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:23,788: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_17.root 
+DEBUG 2017-05-19 09:59:58,752: 	 	INFO 2017-05-19 09:58:23,790: 	 Retrieving JetTree_mc_FatJets_Subjets_12.root 
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:58:23,790: 	 Executing env -i X509_USER_PROXY=/tmp/x509up_u48034 gfal-copy -v -K ADLER32  -T 1800  -t 6704  srm://cmseos.fnal.gov:8443/srm/v2/server?SFN=/eos/uscms/store/user/asady/TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/antitop/170518_171854/0000/JetTree_mc_FatJets_Subjets_12.root file:///uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/results/JetTree_mc_FatJets_Subjets_12.root
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:59:00,827: 	 Finish executing for file JetTree_mc_FatJets_Subjets_11.root
+DEBUG 2017-05-19 09:59:58,753: 	 	INFO 2017-05-19 09:59:00,856: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_11.root 
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:59:12,476: 	 Finish executing for file JetTree_mc_FatJets_Subjets_19.root
+DEBUG 2017-05-19 09:59:58,753: 	 	INFO 2017-05-19 09:59:12,513: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_19.root 
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:59:17,473: 	 Finish executing for file JetTree_mc_FatJets_Subjets_10.root
+DEBUG 2017-05-19 09:59:58,753: 	 	INFO 2017-05-19 09:59:17,577: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_10.root 
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:59:34,859: 	 Finish executing for file JetTree_mc_FatJets_Subjets_12.root
+DEBUG 2017-05-19 09:59:58,753: 	 	INFO 2017-05-19 09:59:34,893: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_12.root 
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:59:38,316: 	 Finish executing for file JetTree_mc_FatJets_Subjets_2.root
+DEBUG 2017-05-19 09:59:58,753: 	 	INFO 2017-05-19 09:59:38,349: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_2.root 
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:59:50,466: 	 Finish executing for file JetTree_mc_FatJets_Subjets_20.root
+DEBUG 2017-05-19 09:59:58,753: 	 	INFO 2017-05-19 09:59:50,489: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_20.root 
+DEBUG 2017-05-19 09:59:58,753: 	 	DEBUG 2017-05-19 09:59:55,970: 	 Finish executing for file JetTree_mc_FatJets_Subjets_7.root
+DEBUG 2017-05-19 09:59:58,754: 	 	INFO 2017-05-19 09:59:55,986: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_7.root 
+DEBUG 2017-05-19 09:59:58,754: 	 	DEBUG 2017-05-19 09:59:56,629: 	 Finish executing for file JetTree_mc_FatJets_Subjets_16.root
+DEBUG 2017-05-19 09:59:58,754: 	 	INFO 2017-05-19 09:59:56,629: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_16.root 
+DEBUG 2017-05-19 09:59:58,754: 	 	DEBUG 2017-05-19 09:59:58,331: 	 Finish executing for file JetTree_mc_FatJets_Subjets_4.root
+DEBUG 2017-05-19 09:59:58,754: 	 	INFO 2017-05-19 09:59:58,332: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_4.root 
+DEBUG 2017-05-19 09:59:58,754: 	 	DEBUG 2017-05-19 09:59:58,683: 	 Finish executing for file JetTree_mc_FatJets_Subjets_8.root
+DEBUG 2017-05-19 09:59:58,754: 	 	INFO 2017-05-19 09:59:58,684: 	 Success: Success in retrieving JetTree_mc_FatJets_Subjets_8.root 
+INFO 2017-05-19 09:59:58,782: 	 Success: All files successfully retrieved
+INFO 2017-05-19 09:59:58,890: 	 Log file is /uscms_data/d3/asady1/LSF/CMSSW_8_0_23/src/RecoBTag/PerformanceMeasurements/test/crab_antitop/crab.log

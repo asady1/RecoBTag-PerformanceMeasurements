@@ -1,0 +1,4 @@
+14198
+116
+{'1': {'Retries': 0, 'WallDurations': [8.0, 74834.0], 'StartTimes': [1495127938.0], 'SubmitTimes': [1495127786.0], 'JobIds': ['6958815.0'], 'TotalUserCpuTimeHistory': [72182.0], 'EndTimes': [], 'Restarts': 0, 'RecordedSite': True, 'State': 'failed', 'ResidentSetSize': [942688], 'Error': [50664, 'Not retrying job due to wall clock limit (job automatically killed on the worker node)', {}], 'SiteHistory': ['Unknown', 'T2_CH_CERN'], 'TotalSysCpuTimeHistory': [426.0]}, 'DagStatus': {'Timestamp': 1495203080L, 'NodesTotal': 1L, 'DagStatus': 6L}}
+{(6958815L, 0L): '1'}
