@@ -2700,6 +2700,8 @@ void BTagAnalyzerT<IPTI,VTX>::processJets(const edm::Handle<PatJetCollection>& j
     JetInfo[iJetColl].Jet_nSE[JetInfo[iJetColl].nJet] = nSE;
 
     //new variables being added to tree
+
+    //assigning error values for all LSF/LMD related quantities 
     float lepPT = -100.;
     float lepETA = -100.;
     float lepPHI = -100.;
@@ -2751,45 +2753,68 @@ void BTagAnalyzerT<IPTI,VTX>::processJets(const edm::Handle<PatJetCollection>& j
     float exkT4subjet_sjindex = -100.;
     
     //checking for highest pt lepton in jet 
+    //looping through electrons
     for (int ele=0; ele < JetInfo[iJetColl].nPFElectron; ele++)
       {
+	//requiring the electron be in the jet and have higher pT than the
+	//stored lepPT value (-100 to begin with)
 	if (JetInfo[iJetColl].PFElectron_IdxJet[ele] == JetInfo[iJetColl].nJet and JetInfo[iJetColl].PFElectron_pt[ele] > lepPT) {
+	  //assinging relevant 4-vector info if electron passes criteria, plus
+	  //PDG ID
 	  lepPT = JetInfo[iJetColl].PFElectron_pt[ele];
 	  lepETA = JetInfo[iJetColl].PFElectron_eta[ele];
 	  lepPHI = JetInfo[iJetColl].PFElectron_phi[ele];
 	  lepTYPE = 11.;
 	}
       }
+    //looping through the muons
     for (int mu=0; mu < JetInfo[iJetColl].nPFMuon; mu++)
       {
+	//requiring the muon be in the jet and have higher pT than the
+	//stored lepPT value (-100 to begin with, if we found an electron
+	//then the pT of the highest pT electron)
 	if (JetInfo[iJetColl].PFMuon_IdxJet[mu] == JetInfo[iJetColl].nJet and JetInfo[iJetColl].PFMuon_pt[mu] > lepPT) {
+	  //assinging relevant 4-vector info if muon passes criteria, plus
+	  //PDG ID
 	  lepPT = JetInfo[iJetColl].PFMuon_pt[mu];
 	  lepETA = JetInfo[iJetColl].PFMuon_eta[mu];
 	  lepPHI = JetInfo[iJetColl].PFMuon_phi[mu];
 	  lepTYPE = 13.;
 	}
       }
-    //if we found one, calculate subjets
+    //if we found a lepton, we take the highest pT one and calculate subjets
+    //so that we can calculate LSF, LMD, and other relevant quantities using
+    //the 4-vectors of the subjets
     if( lepPT > 0){
-      //exclusive kT 3 subjets
+      //grabbing all the particles in the jet
 	  std::vector<fastjet::PseudoJet> FJparticles;
 	  for (unsigned int k = 0; k < pjet->numberOfDaughters(); k++){
 	    const edm::Ptr<reco::Candidate> & this_constituent = pjet->daughterPtr(k);
 	    FJparticles.push_back( fastjet::PseudoJet( this_constituent->px(), this_constituent->py(), this_constituent->pz(), this_constituent->energy() ) );
 	  }
+	  //making exclusive kT n=3 subjets
+	  //using kt algorithm with an R = 1. (R doesn't matter since it's exclusive)
 	  fastjet::JetDefinition jet_def_3(fastjet::kt_algorithm, 1.);
+	  //defining the particles to be clustered and how to cluster them and the number of subjets
 	  fastjet::ClusterSequence clust_seq_3(FJparticles, jet_def_3);
 	  int nSubJets = 3;
+	  //recluster the particles to form three exclusive kT subjets
 	  std::vector<fastjet::PseudoJet> subjets = sorted_by_pt(clust_seq_3.exclusive_jets_up_to(nSubJets));
+	  //figuring out which subjet contains that lepton we found
 	  int matching_index = -1; double matching_dR = 9999.9999;
 	  for (size_t i = 0; i< subjets.size(); i++){
 	    double pair_dR = reco::deltaR(subjets[i].eta(), subjets[i].phi(), lepETA, lepPHI);
 	    if (pair_dR < matching_dR){matching_index = i; matching_dR = pair_dR;}
 	  }
+	  //as long as we matched the lepton to a subjet, we save LSF, LMD,
+	  //the index of the subjet matched to the lepton, 4-vector info
+	  //for all 3 subjets
 	  if (matching_index > -1){
 	    reco::Candidate::PolarLorentzVector SJ (subjets[matching_index].pt(), subjets[matching_index].eta(), subjets[matching_index].phi(), subjets[matching_index].m());
 	    reco::Candidate::PolarLorentzVector lep (lepPT, lepETA, lepPHI, 0);
+	    //LSF = lepton pt/subjet-that-it-belongs-to pT, near 1 for signal, near 0 for background
 	    lsf = lep.Pt()/SJ.Pt();
+	    //LMD = (subjet - lepton 4 vector) mass / subjet mass, near 0 for signal, near 1 for background
 	    lmd = (SJ - lep).M()/SJ.M();
 	    exkT3subjet_sjindex = matching_index;
 	    exkT3subjet_1_pt = subjets[0].pt();
@@ -2805,7 +2830,7 @@ void BTagAnalyzerT<IPTI,VTX>::processJets(const edm::Handle<PatJetCollection>& j
 	    exkT3subjet_3_phi =  subjets[2].phi();
 	    exkT3subjet_3_m =  subjets[2].m();
 	  }
-	  //exkt 2
+	  //repeating all of the above steps for exclusive kT subjets n=2
 	  fastjet::JetDefinition jet_def_2(fastjet::kt_algorithm, 1.);
 	  fastjet::ClusterSequence clust_seq_2(FJparticles, jet_def_2);
 	  int nSubJets2 = 2;
@@ -2830,7 +2855,7 @@ void BTagAnalyzerT<IPTI,VTX>::processJets(const edm::Handle<PatJetCollection>& j
 	    exkT2subjet_2_phi = subjets2[1].phi();
 	    exkT2subjet_2_m = subjets2[1].m();
 	  }
-	  //exkt 4
+	  //repeating all of the above steps for exclusive kt n=4 subjets
 	  fastjet::JetDefinition jet_def_4(fastjet::kt_algorithm, 1.);
 	  fastjet::ClusterSequence clust_seq_4(FJparticles, jet_def_4);
 	  int nSubJets4 = 4;
@@ -2863,9 +2888,12 @@ void BTagAnalyzerT<IPTI,VTX>::processJets(const edm::Handle<PatJetCollection>& j
 	    exkT4subjet_4_phi = subjets4[3].phi();
 	    exkT4subjet_4_m = subjets4[3].m();
 	  }
-	  //inclusive kt R=0.2
+	  //repeating all of the above for inclusive kt R = 0.2
+	  //this time our R = 0.2 since we want subjets of R = 0.2
 	  fastjet::JetDefinition jet_def_in(fastjet::kt_algorithm, 0.2);
 	  fastjet::ClusterSequence clust_seq_in(FJparticles, jet_def_in);
+	  //this time we're using inclusive (however many subjets fastjet
+	  //decides there are
 	  std::vector<fastjet::PseudoJet> subjetsIn = sorted_by_pt(clust_seq_in.inclusive_jets());
 	  int matching_indexIn = -1; double matching_dRIn = 9999.9999;
 	  for (size_t i = 0; i< subjetsIn.size(); i++){
@@ -2894,6 +2922,8 @@ void BTagAnalyzerT<IPTI,VTX>::processJets(const edm::Handle<PatJetCollection>& j
       JetInfo[iJetColl].Jet_LSF_Incl_nSubjets[JetInfo[iJetColl].nJet] = 0.;
       JetInfo[iJetColl].Jet_LSF_Incl_sjIndex[JetInfo[iJetColl].nJet] = -100.;
     } 
+
+    //saving all the info from above to the tree
     JetInfo[iJetColl].Jet_LSF_lepPT[JetInfo[iJetColl].nJet] = lepPT;
     JetInfo[iJetColl].Jet_LSF_lepETA[JetInfo[iJetColl].nJet] = lepETA;
     JetInfo[iJetColl].Jet_LSF_lepPHI[JetInfo[iJetColl].nJet] = lepPHI;
